@@ -1,0 +1,186 @@
+[
+  {
+    "name": "swayleo-call-to-tasks",
+    "description": "Convert call transcripts and after-call notes into sourced, deduplicated tasks.",
+    "provenance": "Expanded from the operations agenda; proposed process, not a deployed integration.",
+    "path": "skills/swayleo-call-to-tasks/SKILL.md",
+    "root_preview": "swayleo-call-to-tasks.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-operations-call",
+    "description": "Build a concise recurring operations agenda with urgent leadership decisions first.",
+    "provenance": "Expanded from the requested Monday and Wednesday operations-call process.",
+    "path": "skills/swayleo-operations-call/SKILL.md",
+    "root_preview": "swayleo-operations-call.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-segmentation-strategy",
+    "description": "Audit existing audiences and define a measurable lifecycle segmentation plan.",
+    "provenance": "Expanded from the segmentation priority in the operations agenda.",
+    "path": "skills/swayleo-segmentation-strategy/SKILL.md",
+    "root_preview": "swayleo-segmentation-strategy.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-campaign-calendar",
+    "description": "Create campaign calendars with sourced offers, defined audiences and matching briefs.",
+    "provenance": "Expanded using the agenda and recovered cross-brand calendar/copy workflows.",
+    "path": "skills/swayleo-campaign-calendar/SKILL.md",
+    "root_preview": "swayleo-campaign-calendar.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-lifecycle-copy",
+    "description": "Write and revise email/SMS copy from brand evidence and an approved strategy.",
+    "provenance": "Expanded from the starter; informed by recovered brand strategy and copy-review practices.",
+    "path": "skills/swayleo-lifecycle-copy/SKILL.md",
+    "root_preview": "swayleo-lifecycle-copy.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-email-design-qa",
+    "description": "Prepare design direction and review rendered lifecycle emails against approved copy.",
+    "provenance": "Expanded using recovered design QA and product/destination mismatch checks.",
+    "path": "skills/swayleo-email-design-qa/SKILL.md",
+    "root_preview": "swayleo-email-design-qa.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-client-folder",
+    "description": "Set up or audit the core client document set without carrying old-brand residue.",
+    "provenance": "Expanded from the four-document agenda and recovered template-migration work.",
+    "path": "skills/swayleo-client-folder/SKILL.md",
+    "root_preview": "swayleo-client-folder.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-monday-slack-sync",
+    "description": "Specify a reliable Monday.com and Slack tracker synchronization with clear ownership.",
+    "provenance": "Expanded from the proposed dual-system operations process.",
+    "path": "skills/swayleo-monday-slack-sync/SKILL.md",
+    "root_preview": "swayleo-monday-slack-sync.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-academy-resource",
+    "description": "Curate external learning and turn verified internal workflows into reusable training.",
+    "provenance": "Expanded from the academy agenda; no existing academy inventory is assumed.",
+    "path": "skills/swayleo-academy-resource/SKILL.md",
+    "root_preview": "swayleo-academy-resource.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-brand-context",
+    "description": "Build a sourced brand context pack before strategy, copy or operations work.",
+    "provenance": "New reusable entrypoint derived from the recovered cross-brand review process.",
+    "path": "skills/swayleo-brand-context/SKILL.md",
+    "root_preview": "swayleo-brand-context.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-flow-strategy",
+    "description": "Build flow maps and email strategy using the established Swayleo review structure.",
+    "provenance": "Recovered from the October 23 brand-strategy rules and strategy-writing workflow.",
+    "path": "skills/swayleo-flow-strategy/SKILL.md",
+    "root_preview": "swayleo-flow-strategy.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-copy-document-structure",
+    "description": "Prepare native copy-document sections and preserve approved writing-table formats.",
+    "provenance": "Recovered from strategy writing and master-template work; client-specific overrides remain scoped.",
+    "path": "skills/swayleo-copy-document-structure/SKILL.md",
+    "root_preview": "swayleo-copy-document-structure.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-copy-claims-qa",
+    "description": "Review lifecycle copy for product accuracy, offer mechanics, claims and policy limits.",
+    "provenance": "Recovered from cross-brand November copy reviews and saved QA corrections.",
+    "path": "skills/swayleo-copy-claims-qa/SKILL.md",
+    "root_preview": "swayleo-copy-claims-qa.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-campaign-design-qa",
+    "description": "Run complete campaign design QA and draft comments tied to exact frames.",
+    "provenance": "Recovered from past design reviews; complements the design-brief skill.",
+    "path": "skills/swayleo-campaign-design-qa/SKILL.md",
+    "root_preview": "swayleo-campaign-design-qa.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-flow-build-qa",
+    "description": "Verify lifecycle flow settings and content against a strategy before activation.",
+    "provenance": "Recovered from flow-settings verification work; no historical live settings are treated as verified defaults.",
+    "path": "skills/swayleo-flow-build-qa/SKILL.md",
+    "root_preview": "swayleo-flow-build-qa.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-document-reconciliation",
+    "description": "Reconcile internal and client documents while preserving comments and source authority.",
+    "provenance": "Recovered from internal/client copy comparisons and concurrent-edit preservation.",
+    "path": "skills/swayleo-document-reconciliation/SKILL.md",
+    "root_preview": "swayleo-document-reconciliation.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-qa-comments",
+    "description": "Write, revise and verify short actionable QA comments without duplicating threads.",
+    "provenance": "Recovered from saved cross-brand comment edits and comment-anchor verification.",
+    "path": "skills/swayleo-qa-comments/SKILL.md",
+    "root_preview": "swayleo-qa-comments.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-task-batch-consolidation",
+    "description": "Consolidate campaign tasks into batches while retaining original history and references.",
+    "provenance": "Recovered from copy/design tracker consolidation workflows.",
+    "path": "skills/swayleo-task-batch-consolidation/SKILL.md",
+    "root_preview": "swayleo-task-batch-consolidation.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-approval-handoffs",
+    "description": "Keep strategy, copy, design and build handoffs aligned with actual approvals.",
+    "provenance": "Recovered from brand-agent holds, review requests and task-state reconciliation.",
+    "path": "skills/swayleo-approval-handoffs/SKILL.md",
+    "root_preview": "swayleo-approval-handoffs.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-monday-board-automation",
+    "description": "Audit or implement board workflows using the real Monday.com schema and testable rules.",
+    "provenance": "Recovered from project-management build out, review assignment and recurrence work.",
+    "path": "skills/swayleo-monday-board-automation/SKILL.md",
+    "root_preview": "swayleo-monday-board-automation.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-retention-reporting",
+    "description": "Produce a sourced lifecycle performance readout with clear metric definitions.",
+    "provenance": "New workflow filling the reporting gap; use installed analytics skills for deeper analysis.",
+    "path": "skills/swayleo-retention-reporting/SKILL.md",
+    "root_preview": "swayleo-retention-reporting.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-client-onboarding",
+    "description": "Turn a new client brief into a verified operations and lifecycle readiness plan.",
+    "provenance": "New cross-brand workflow joining recovered ownership and document practices.",
+    "path": "skills/swayleo-client-onboarding/SKILL.md",
+    "root_preview": "swayleo-client-onboarding.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  },
+  {
+    "name": "swayleo-campaign-build-qa",
+    "description": "Verify a built campaign against its approved copy, design, audience and send plan.",
+    "provenance": "New execution workflow derived from recurring copy/design/destination review gaps.",
+    "path": "skills/swayleo-campaign-build-qa/SKILL.md",
+    "root_preview": "swayleo-campaign-build-qa.md",
+    "status": "expanded draft; structurally validated, not live-operation certified"
+  }
+]
