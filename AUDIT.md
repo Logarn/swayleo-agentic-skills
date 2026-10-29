@@ -39,7 +39,7 @@ Proprietary and undeclared-licence plugins are catalogued for installation from 
 
 The archive's vendor snapshots preserve package layout and source versions. They are reference/source packages, not a claim that copying them installs connectors, hosted services, credentials or a compatible runtime. Prefer the official plugin installation for vendor capabilities.
 
-The installer installs only the 23 Swayleo workflow folders and preserves their worksheets. It previews changes by default and never overwrites an existing skill. Root Markdown files are readable previews; the archive contains the proper SKILL.md folder layout.
+The installer defaults to the 23 Swayleo workflow folders and preserves their worksheets. External skills require an explicit --external selection. It previews changes by default and never overwrites an existing skill. Root Markdown files are readable previews; the archive contains the proper SKILL.md folder layout.
 
 ## What is not verified
 
@@ -52,3 +52,11 @@ The installer installs only the 23 Swayleo workflow folders and preserves their 
 ## Maintaining completeness
 
 Re-run the source inventory when Codex plugins change. Compare skill IDs, versions and hashes, review newly found capabilities for relevance, and preserve licence/dependency boundaries. Keep source exports distinct from original Swayleo instructions. New detail should encode a real decision, useful schema or verified procedure rather than padding the files.
+
+## External expansion
+
+After the local audit, 48 external skills were added from seven public source repositories. These are not counted among the 166 local entries. They cover direct-response copy, email/SMS and lifecycle strategy, marketing/sales, Klaviyo analysis and development, Figma email design, Klaviyo personalization, and project/program management. See EXTERNAL-SKILLS.md and external-manifest.json for pinned source commits, authors, licences and prerequisites.
+
+The archive now includes 23 Swayleo + 43 local vendor + 48 external skill entrypoints. Original external SKILL.md files are hash-checked against downloaded source. References/templates are retained. The installer was exercised in a task-local scratch directory; external workflow scripts were not run and no service account was connected.
+
+The system's quick_validate.py could not run because PyYAML is absent. The Swayleo files instead passed checks of their deliberately simple frontmatter subset, names, descriptions, required resources and packaging. Do not interpret those checks, static source inspection or upstream test claims as certification of live workflow behavior.

@@ -2,12 +2,13 @@
   "snapshot_date": "2026-10-29",
   "swayleo_skills": 23,
   "bundled_vendor_skills": 43,
+  "external_skills": 48,
   "existing_inventory_entrypoints": 166,
   "files": [
     {
       "path": "AUDIT.md",
-      "bytes": 4642,
-      "sha256": "ca8d394a0c0621f20412c1dadc5803b6063628957b02ebc31e846e522e6352e6"
+      "bytes": 5854,
+      "sha256": "a8ac5eb126edadf3194b0bb34c83f12a2aa04cafd12ab08c0453febf6b8107ba"
     },
     {
       "path": "CATALOG.md",
@@ -15,9 +16,1729 @@
       "sha256": "8780cfe6dc9d35745ac58077c7dae08e7db9d0485419c26994ad5fc56c838a55"
     },
     {
+      "path": "external/corey/LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "external/corey/skills/ab-testing/evals/evals.json",
+      "bytes": 9025,
+      "sha256": "fb32e1f75fc70e339e71f88b1cf10bd9f3d1835178a62d1156ed7dddc278f061"
+    },
+    {
+      "path": "external/corey/skills/ab-testing/references/sample-size-guide.md",
+      "bytes": 9183,
+      "sha256": "53525ddf0e904477262dc3dbc89d4bd4205f2e07d655616de91e22a310f768c4"
+    },
+    {
+      "path": "external/corey/skills/ab-testing/references/test-templates.md",
+      "bytes": 6473,
+      "sha256": "761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
+    },
+    {
+      "path": "external/corey/skills/ab-testing/SKILL.md",
+      "bytes": 12654,
+      "sha256": "98d522f953fffcb95e570c393169c741380dc6ad3ba0bbb0a8b3e3ed7ff3fdc1"
+    },
+    {
+      "path": "external/corey/skills/analytics/evals/evals.json",
+      "bytes": 8819,
+      "sha256": "526f4bf20cedca26906dd0c3dfb6ae67de3f5b17977eb426820ca406c5ce0e59"
+    },
+    {
+      "path": "external/corey/skills/analytics/references/event-library.md",
+      "bytes": 8654,
+      "sha256": "c60e3e145e6b06258570350b614913ed9150143b4494a71396abaef479502b05"
+    },
+    {
+      "path": "external/corey/skills/analytics/references/ga4-implementation.md",
+      "bytes": 7189,
+      "sha256": "a5715de092984fc148b1825f1edc7730813452876f991819c219b477ef03ed6d"
+    },
+    {
+      "path": "external/corey/skills/analytics/references/gtm-implementation.md",
+      "bytes": 8413,
+      "sha256": "0b161102de710c978cc2ac52c78c79f32e184bc028aa946eba18e777d7a60d64"
+    },
+    {
+      "path": "external/corey/skills/analytics/SKILL.md",
+      "bytes": 14526,
+      "sha256": "c8cb2cbeb318393d3a014ebed366ae13e6cd84d205cb6a2ac03890698639a146"
+    },
+    {
+      "path": "external/corey/skills/churn-prevention/evals/evals.json",
+      "bytes": 8144,
+      "sha256": "ee85b927a1bea665b0c080034c76dcc1a81c57be1f4e974a664c7f62c4329dfd"
+    },
+    {
+      "path": "external/corey/skills/churn-prevention/references/cancel-flow-patterns.md",
+      "bytes": 10650,
+      "sha256": "d64b9282b956da6831ec97a1fffda5841c5c43a71721b512b66b04bde104c139"
+    },
+    {
+      "path": "external/corey/skills/churn-prevention/references/dunning-playbook.md",
+      "bytes": 14061,
+      "sha256": "24b96a01cfba174c9f3adde66d417e7282c0cf31789c2719e6bd37b8ad2ecf8c"
+    },
+    {
+      "path": "external/corey/skills/churn-prevention/SKILL.md",
+      "bytes": 20037,
+      "sha256": "425497b9c3415fa91a5cc4a7140a1bee727d3b6398beed1bb4fa4880503c0355"
+    },
+    {
+      "path": "external/corey/skills/cold-email/evals/evals.json",
+      "bytes": 10441,
+      "sha256": "f6c28969b333377b2ee24aa122ed91455d52df893ee17e0f203fd0cb72b165d0"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/benchmarks.md",
+      "bytes": 6411,
+      "sha256": "f69fd26e8c9a4e61d3d74368e3e8dae5e737f5a05ffb49f6b13f724a2aef49e5"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/deliverability.md",
+      "bytes": 7833,
+      "sha256": "dccb53b0ea4462139b642f44a748ea74ab6f034801fd8b4de599dc2f10287021"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/follow-up-sequences.md",
+      "bytes": 3947,
+      "sha256": "a72408232976f7af74a3ea4bc03f93bf34e7dc44fb7dabd2f1f56a24b8a3f664"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/frameworks.md",
+      "bytes": 5387,
+      "sha256": "067c1f5ef701932193f1421b903c5d285ffe9845d2488f9cb4691ca36e513d3b"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/linkedin-outreach.md",
+      "bytes": 5750,
+      "sha256": "c95ba4c785bafccfffd98c6d850c20ea674cac1b18fa817d3f4dce23ed159ba5"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/multichannel-cadence.md",
+      "bytes": 5481,
+      "sha256": "3189071b3afb7dfbd480d2e5c9835867e757fa1cad783b2e7c3f63da3ffe1e76"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/outbound-plays.md",
+      "bytes": 6113,
+      "sha256": "d48f43c90b811b1124f2cd23447854a62196c9fce45248662eaede722542f44f"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/personalization.md",
+      "bytes": 5238,
+      "sha256": "9d5368645025aa632316b3c7de999762e2f8743fb54aae0b59adfa011b212c5a"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/reply-handling.md",
+      "bytes": 4648,
+      "sha256": "fa2a5e020a0206ffba29093b54bd7977ebe6d3e34a6ae323b34ce86ce1604da4"
+    },
+    {
+      "path": "external/corey/skills/cold-email/references/subject-lines.md",
+      "bytes": 3015,
+      "sha256": "f71f31b1151d972bb19ff03791ffb9d24941a8ccea8b913e5a5c7aca439b45ce"
+    },
+    {
+      "path": "external/corey/skills/cold-email/SKILL.md",
+      "bytes": 12571,
+      "sha256": "6cf61f55b8ee530d78d4af6cc2a42006f7d84374ed55b967d196ae9a354bbf9b"
+    },
+    {
+      "path": "external/corey/skills/copy-editing/evals/evals.json",
+      "bytes": 11880,
+      "sha256": "cc18c9f51094058759267d465cfcc50da65f248f66b923326781aa642d622ca7"
+    },
+    {
+      "path": "external/corey/skills/copy-editing/references/checklist.md",
+      "bytes": 4505,
+      "sha256": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60"
+    },
+    {
+      "path": "external/corey/skills/copy-editing/references/content-refresh.md",
+      "bytes": 4662,
+      "sha256": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b"
+    },
+    {
+      "path": "external/corey/skills/copy-editing/references/plain-english-alternatives.md",
+      "bytes": 8258,
+      "sha256": "df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775"
+    },
+    {
+      "path": "external/corey/skills/copy-editing/SKILL.md",
+      "bytes": 18458,
+      "sha256": "cec5a771ce37ade292f7f1f6b418e8a6ce6ec3f50163fa5e664afbcb03e085fc"
+    },
+    {
+      "path": "external/corey/skills/copywriting/evals/evals.json",
+      "bytes": 12995,
+      "sha256": "ccec86052a0edd8646d0e50e63c08e0e971f443d8f6e9178843a1629f79efdb0"
+    },
+    {
+      "path": "external/corey/skills/copywriting/references/ai-tells.md",
+      "bytes": 20804,
+      "sha256": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2"
+    },
+    {
+      "path": "external/corey/skills/copywriting/references/copy-frameworks.md",
+      "bytes": 14409,
+      "sha256": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441"
+    },
+    {
+      "path": "external/corey/skills/copywriting/references/natural-transitions.md",
+      "bytes": 5561,
+      "sha256": "9bd61b0de5be2c4de4ce130c68236b4f290b12737823827a458bb2b4c8584683"
+    },
+    {
+      "path": "external/corey/skills/copywriting/SKILL.md",
+      "bytes": 15553,
+      "sha256": "02f0ab1ddd41d95b3c230d4bcff3de6578c8f2e45776c8ef2e4b931636af5bee"
+    },
+    {
+      "path": "external/corey/skills/customer-research/evals/evals.json",
+      "bytes": 12547,
+      "sha256": "fc8a15d12e582b55fa52ad27925594ab796ebd6a8ea13fed13722f97e4c51f01"
+    },
+    {
+      "path": "external/corey/skills/customer-research/references/interviews-and-surveys.md",
+      "bytes": 8640,
+      "sha256": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076"
+    },
+    {
+      "path": "external/corey/skills/customer-research/references/source-guides.md",
+      "bytes": 16240,
+      "sha256": "7490a8d04f209d4c8c987530e79d0883a6b42027b86a920fc751cf8ea9904892"
+    },
+    {
+      "path": "external/corey/skills/customer-research/SKILL.md",
+      "bytes": 15190,
+      "sha256": "22964b89315a6cf5524d3f627904843e7826d40e06689a07faa5df25fc730bc7"
+    },
+    {
+      "path": "external/corey/skills/emails/evals/evals.json",
+      "bytes": 7471,
+      "sha256": "b90182c8b6edbb866ef82ad022db3d2fe8598e7329469117fb39edd9ab069f67"
+    },
+    {
+      "path": "external/corey/skills/emails/references/copy-guidelines.md",
+      "bytes": 2332,
+      "sha256": "02f08897e4aa99ecc4ec1893d61d0c26d0c5e62e09af26f175087455e9b68e01"
+    },
+    {
+      "path": "external/corey/skills/emails/references/email-types.md",
+      "bytes": 14250,
+      "sha256": "a5dd4f0555a7b21d2ff426948d15657825b9d16265652563f5e272d2e1879bfd"
+    },
+    {
+      "path": "external/corey/skills/emails/references/sequence-templates.md",
+      "bytes": 3909,
+      "sha256": "f8f318f10e29abcd009cbee29e2bd178981d96c973099b508d30af6c10ab8d79"
+    },
+    {
+      "path": "external/corey/skills/emails/SKILL.md",
+      "bytes": 11548,
+      "sha256": "8709631cc21717d17db9bb7e787ea44768d77182daf9846de8718a2ae7433b91"
+    },
+    {
+      "path": "external/corey/skills/marketing-ideas/evals/evals.json",
+      "bytes": 7490,
+      "sha256": "f97f2bd1c755e6ca85ab75c500db681bd19559fb070ac249bba135ed7d8ecf60"
+    },
+    {
+      "path": "external/corey/skills/marketing-ideas/references/guerrilla-marketing.md",
+      "bytes": 5033,
+      "sha256": "07b0534b579ce1916a60e79ab426cd936e78b4b261802d6486ad145f7bf552ae"
+    },
+    {
+      "path": "external/corey/skills/marketing-ideas/references/ideas-by-category.md",
+      "bytes": 15400,
+      "sha256": "8b6aa55b3255616ea80c0ea45eca8f2bb70e528510ed76f6392e71475dd0c09b"
+    },
+    {
+      "path": "external/corey/skills/marketing-ideas/SKILL.md",
+      "bytes": 5789,
+      "sha256": "d5ea46d2d2eb2fb039494e8b545550a6bd5b5b9aedc5e65a228ac514deb018ff"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/evals/evals.json",
+      "bytes": 12727,
+      "sha256": "79c3b7680e6ab2f6e4130e7bf13bbfe4011470a7aa44d128344e1505ead4bb57"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/aarrr-framework.md",
+      "bytes": 10766,
+      "sha256": "5c7bf583c2aa62e193789b6b1a88a978bf3ba9dc0c8c6653b53f7f62c0c1a0e3"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/budget-planning.md",
+      "bytes": 10265,
+      "sha256": "4351fa1712b66e3e527b71ec9a2e01a68edb43e77b6d310bb424756c6d1a17f7"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/client-types.md",
+      "bytes": 11386,
+      "sha256": "06e3d0a6f3e9b7195a8c0b43d5186769d1554d1dfd8b1212aca220f9ce09fc01"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/current-state-rubric.md",
+      "bytes": 11656,
+      "sha256": "8ab1d4a4d16ec01c2bf61d83807c0abd857aadd82f3eeaf4e4842b4bbeff1f03"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/example-quietude.md",
+      "bytes": 69116,
+      "sha256": "63c002257ee1f6eaeb7c99c4ab9c650ea8bd8f7586c75e4565c2322faef82a04"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/funding-stage-unlocks.md",
+      "bytes": 9797,
+      "sha256": "49f073653ac32dd42b7e5e10c3deabd7adae8120c41baf0cf813ec20164c6488"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/growth-patterns.md",
+      "bytes": 13419,
+      "sha256": "fafa84b8c3a62ed9c33c30fc25c7422e0d87b935de990d0acbf91889e1a053de"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/idea-cross-reference.md",
+      "bytes": 13418,
+      "sha256": "350fa9c6f4cb4cd8f23698adb8479ae94cd6564a06b2b7cfcdf1430448e68d2f"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/market-sizing.md",
+      "bytes": 9820,
+      "sha256": "e991bf2f38948ea4e829c74fea83f367fbcacb4d6c2ca0f4ca89fc8b9fb2bc0e"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/measurement-framework.md",
+      "bytes": 10845,
+      "sha256": "93d9bf9d9e624a6031a27ce61cf1617e3aa5a8fff57e1c6f80194f847234b745"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/methodology.md",
+      "bytes": 16806,
+      "sha256": "a5ae96ee26c800aa40eafcb525139e3dd49b2c1d24005fdcc038287ad25ede7e"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/ops-stack-mapping.md",
+      "bytes": 12221,
+      "sha256": "9a506816d87ed176c0578d13bbf25c5f8398872d9002b3589e2dfa42ad17c907"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/plan-template.md",
+      "bytes": 18735,
+      "sha256": "bce84c2c3c31c9163a0849a1371aadb13f6ab8b29402e64b7d5b95c316a79656"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/references/team-and-agency-model.md",
+      "bytes": 14537,
+      "sha256": "0c5e55c0992de4d5d24cd299eb46765a8986cb204ebd7c65bce32c868ae0d5f7"
+    },
+    {
+      "path": "external/corey/skills/marketing-plan/SKILL.md",
+      "bytes": 25489,
+      "sha256": "2b75dfae852bdb61fd96eebe3d2b373f99f67c86ff830f796310f662ba8906e8"
+    },
+    {
+      "path": "external/corey/skills/marketing-psychology/evals/evals.json",
+      "bytes": 6036,
+      "sha256": "c3b7d15b3008eeb493796e21affd6a0c6e7ce312f9cfeffcdef467857903c733"
+    },
+    {
+      "path": "external/corey/skills/marketing-psychology/SKILL.md",
+      "bytes": 21884,
+      "sha256": "573bbe4f6e300e7fb75299e314f56e26382d284782caa2ae0e0f33eb2e646548"
+    },
+    {
+      "path": "external/corey/skills/offers/evals/evals.json",
+      "bytes": 3190,
+      "sha256": "abfd1e7a6040a7bd09440d2cda7410a20e20a67a40cb562953d62a0f1c467ece"
+    },
+    {
+      "path": "external/corey/skills/offers/references/bonus-stacking.md",
+      "bytes": 7758,
+      "sha256": "872abbfd14501fd0b097f5ae62b9931571152d43b6690b57df5e65ab48aedfbd"
+    },
+    {
+      "path": "external/corey/skills/offers/references/examples.md",
+      "bytes": 10203,
+      "sha256": "f1033e181845effe8c659800aaf68523686be6bdcb1c5e256c87008e8ea638af"
+    },
+    {
+      "path": "external/corey/skills/offers/references/guarantee-design.md",
+      "bytes": 8173,
+      "sha256": "daa421558b664fe5a335c6cb764d47755799662c79606551a848bba864255c29"
+    },
+    {
+      "path": "external/corey/skills/offers/references/offer-anatomy.md",
+      "bytes": 8857,
+      "sha256": "0810080788bedc9b40dc0aba53109991aa816397f4b45e813289985eb8a64cad"
+    },
+    {
+      "path": "external/corey/skills/offers/references/offer-formats.md",
+      "bytes": 10690,
+      "sha256": "32988e0b187e5ef6cf6a8fa86105612852cbc8edc91eebab098d4da50464aadf"
+    },
+    {
+      "path": "external/corey/skills/offers/references/saas-offers.md",
+      "bytes": 7869,
+      "sha256": "1b21638f0fd2e623f638c13f4b82e2d8c8ecb79d1324f0183f8322db5f5ceea3"
+    },
+    {
+      "path": "external/corey/skills/offers/references/scarcity-urgency.md",
+      "bytes": 7106,
+      "sha256": "4abe51a54188e6c93feb6cface92abc5c8e03212b8ade5bd9366ed159ad3f8f8"
+    },
+    {
+      "path": "external/corey/skills/offers/references/value-equation.md",
+      "bytes": 7883,
+      "sha256": "4610ff358be2be643e7783884e628f01e1e0c56915a7924e5ccb92c096121eff"
+    },
+    {
+      "path": "external/corey/skills/offers/SKILL.md",
+      "bytes": 10141,
+      "sha256": "8d6b9b746a457d0817f6fcd136ddbc9bb8cbfb65e0d2738fa1373cf31dd8b4f0"
+    },
+    {
+      "path": "external/corey/skills/onboarding/evals/evals.json",
+      "bytes": 8239,
+      "sha256": "296b62f2dadbeee44108b68ab7f8509e5e7d72f5bc7b89759dc869b623badf97"
+    },
+    {
+      "path": "external/corey/skills/onboarding/references/activation-models.md",
+      "bytes": 4089,
+      "sha256": "e4d396e2dacfc19bfa33b8bfaaf8639e5a2c0b8a252bf52115ecd2561a2f35e4"
+    },
+    {
+      "path": "external/corey/skills/onboarding/references/experiments.md",
+      "bytes": 7796,
+      "sha256": "b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932"
+    },
+    {
+      "path": "external/corey/skills/onboarding/references/minimum-path-to-value.md",
+      "bytes": 3152,
+      "sha256": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3"
+    },
+    {
+      "path": "external/corey/skills/onboarding/SKILL.md",
+      "bytes": 11596,
+      "sha256": "61b808c85207e6567f39e5d6b7876fdad77b5f17f5811afcd8b28cfce6dcbe31"
+    },
+    {
+      "path": "external/corey/skills/popups/evals/evals.json",
+      "bytes": 6585,
+      "sha256": "dca07b13560aea57cb0739235390c420f82c45d4e6ce01c6f7fb59fc225d2c00"
+    },
+    {
+      "path": "external/corey/skills/popups/SKILL.md",
+      "bytes": 11782,
+      "sha256": "0cd28ac115f7f1ef591200b466e6f329cdf70a86290eff8bb69973dc5ed926a9"
+    },
+    {
+      "path": "external/corey/skills/pricing/evals/evals.json",
+      "bytes": 11295,
+      "sha256": "ea2ec5a51826311225c806c9ff3f7fc8c4716b154f7b91aba67ab8639bdb8984"
+    },
+    {
+      "path": "external/corey/skills/pricing/references/pricing-models.md",
+      "bytes": 4681,
+      "sha256": "2cdb900b74f56a796c0331725e73eff4ecd84f8021b42efbb0a5b4903d1d9b16"
+    },
+    {
+      "path": "external/corey/skills/pricing/references/pricing-page-teardown.md",
+      "bytes": 7283,
+      "sha256": "b58a3bffa58ae7c3a475aba33887daaa98e0dc0de57ea948314256b08aa306ad"
+    },
+    {
+      "path": "external/corey/skills/pricing/references/research-methods.md",
+      "bytes": 6677,
+      "sha256": "90337058da40c2fcf858bfee9ee8905ad1dc3a5f90d1878f9a8e9ab79193631b"
+    },
+    {
+      "path": "external/corey/skills/pricing/references/tier-structure.md",
+      "bytes": 7199,
+      "sha256": "b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30"
+    },
+    {
+      "path": "external/corey/skills/pricing/SKILL.md",
+      "bytes": 13479,
+      "sha256": "b0318f64140e60a28d0cf71b1a6bf2aa214b96ef2bc3253c60d16ae480367d25"
+    },
+    {
+      "path": "external/corey/skills/product-marketing/evals/evals.json",
+      "bytes": 7214,
+      "sha256": "0c6599b88f50ec1be91096a36ba6c5a15cf8312151394e3469e5ddb991b19afb"
+    },
+    {
+      "path": "external/corey/skills/product-marketing/references/brand-voice.md",
+      "bytes": 8361,
+      "sha256": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672"
+    },
+    {
+      "path": "external/corey/skills/product-marketing/SKILL.md",
+      "bytes": 13847,
+      "sha256": "19ece0fa75c72a5a8b6e90db80f506586f54cc93bae6bffbb1bd2ef4ae7d603c"
+    },
+    {
+      "path": "external/corey/skills/prospecting/evals/evals.json",
+      "bytes": 18371,
+      "sha256": "e8792953b906e153bab2ee8acdae544fde81e132ed00ec1fa19852c068f68e73"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/account-research.md",
+      "bytes": 3771,
+      "sha256": "cf09a7f41b4963d919dcdf96d659fe898a1ade5328ab481864419f6dd1d4bba9"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/b2b-prospecting.md",
+      "bytes": 4978,
+      "sha256": "b7a05da9d1584cc8d21432a43fe1ba802c4f9a6c601e3885d4117cc9d4d52f37"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/compliance.md",
+      "bytes": 11065,
+      "sha256": "b7f03614af776e90259f28cc1f484ce22a86c71ef35a1e5a4b9e24b6d89aecd4"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/data-sources.md",
+      "bytes": 13456,
+      "sha256": "2262f2172c285b98b1df73974d4cb441c8f835645b4d7ee21a340ff5df2a1182"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/demand-signals.md",
+      "bytes": 10185,
+      "sha256": "489b8fb96a828578b6812bfabfbba8ce86d07545b21716a873501ba4d464f4ee"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/enrichment-playbook.md",
+      "bytes": 5290,
+      "sha256": "dcdb131d83e0a010fdbb572c828b621e9db10f96b6fafd891499683ed9a4a63c"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/local-prospecting.md",
+      "bytes": 8150,
+      "sha256": "1dd71471a3413d5b0a9d230b1e42ca95469c617285bf7e2abdfa463428367fc3"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/saas-prospecting.md",
+      "bytes": 6045,
+      "sha256": "18be53f055f3f8a2ca647dccc8d8d8d177a0df5820193463542f87fa4eeafcf8"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/signal-plays.md",
+      "bytes": 13911,
+      "sha256": "034bdc18150290959c18e5566f4c0e051875e45b1e3b8eed92cf7fe26a847ea0"
+    },
+    {
+      "path": "external/corey/skills/prospecting/references/sourcing-and-enrichment.md",
+      "bytes": 6740,
+      "sha256": "d7f47cf69ee1e78bb21c50f2b0050460899f8e9e001c40261e08e38dd6fa9fbc"
+    },
+    {
+      "path": "external/corey/skills/prospecting/SKILL.md",
+      "bytes": 20342,
+      "sha256": "bb9ca9c00ab0dc87e1ed6bb40afd93e559eabb80139ad788d597ebfa7dd11ccf"
+    },
+    {
+      "path": "external/corey/skills/revops/evals/evals.json",
+      "bytes": 7169,
+      "sha256": "fa11d55563f5178a42309f9704c38df716ade44918197578d3c4fc06ff62e344"
+    },
+    {
+      "path": "external/corey/skills/revops/references/automation-playbooks.md",
+      "bytes": 11165,
+      "sha256": "57ab12a9d111cc557fda52fde1f861ccb44667b3449c71cff9059a391a447adf"
+    },
+    {
+      "path": "external/corey/skills/revops/references/inbound-routing.md",
+      "bytes": 4642,
+      "sha256": "d177d982745142231b9ad1df715817d91cd5198dac52826902843079403105ff"
+    },
+    {
+      "path": "external/corey/skills/revops/references/lifecycle-definitions.md",
+      "bytes": 9445,
+      "sha256": "bf67eff377248f3d2239e25ec357e4f2e0b978fab7e8a85e818032a396fc7e6f"
+    },
+    {
+      "path": "external/corey/skills/revops/references/routing-rules.md",
+      "bytes": 6792,
+      "sha256": "9057c207550ff289e84d6b25ca9d38b436c98a517e0aa4f30c2ff8f09f5d8370"
+    },
+    {
+      "path": "external/corey/skills/revops/references/scoring-models.md",
+      "bytes": 10678,
+      "sha256": "683653208039ffceef2c72b3c070c86744fe1407ac2c27483e8e3ccdbd4262a9"
+    },
+    {
+      "path": "external/corey/skills/revops/SKILL.md",
+      "bytes": 16713,
+      "sha256": "ac0849626fcacc2da6c64e2ce0305dedf742032dfb7ab0f051c0cd8c8e2a985a"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/evals/evals.json",
+      "bytes": 11688,
+      "sha256": "5a051cfa1225515da3176a93ddb907b8efd091f9c4a485ebcdb867eea1cb7bf0"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/references/cold-call-scripts.md",
+      "bytes": 4133,
+      "sha256": "cc4e3248070804539f8c1de01fd63918d8e40a6ad858dea2a519d50a060e268f"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/references/deck-frameworks.md",
+      "bytes": 7730,
+      "sha256": "265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/references/demo-scripts.md",
+      "bytes": 11769,
+      "sha256": "505616ebf73d30fe84a844540727ab8f3aeae29ebcda8c8ace28a18ada003da3"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/references/objection-library.md",
+      "bytes": 13393,
+      "sha256": "e0cdfeffc41afbdbe2c014bcd9b3c024318eac9bd23159e871ec796aba29e0b2"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/references/one-pager-templates.md",
+      "bytes": 5823,
+      "sha256": "2197326faff4ede03fb40e332e9c80a4e084d8efd48c74df8720d70817ac5ded"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/references/win-loss-analysis.md",
+      "bytes": 4299,
+      "sha256": "f6f34c503f4cc506a8f24bfea6e75b260e3eff661da206399e162960141f090a"
+    },
+    {
+      "path": "external/corey/skills/sales-enablement/SKILL.md",
+      "bytes": 21099,
+      "sha256": "d30008d34e6a314b422e0a35cacf38aea39d39d2c48683e1ef6edcbdfca30ebd"
+    },
+    {
+      "path": "external/corey/skills/sms/evals/evals.json",
+      "bytes": 11269,
+      "sha256": "cb0b825cb124b131792e6d7bb5f7bdd1557b39905568f356e1e3a172f197bbd1"
+    },
+    {
+      "path": "external/corey/skills/sms/references/compliance.md",
+      "bytes": 7833,
+      "sha256": "bbfb8f7c359cad650b7b2d27108e2bb12365a6c604e464ba3e94195b3938f149"
+    },
+    {
+      "path": "external/corey/skills/sms/references/platforms.md",
+      "bytes": 9865,
+      "sha256": "3f3e54cae72bb722703be6bae76dc1f6fa2312d5541105d425bcc07cd7a3ff12"
+    },
+    {
+      "path": "external/corey/skills/sms/references/sequence-templates.md",
+      "bytes": 7070,
+      "sha256": "c61e72b00bfbe80e87a771840164a2a487585f202bbd3f010d8c60485339b220"
+    },
+    {
+      "path": "external/corey/skills/sms/references/whatsapp.md",
+      "bytes": 16194,
+      "sha256": "359f03cd9528a5ddf19344b1ac156daed77ff3396921ffa31ede0fda4799ce63"
+    },
+    {
+      "path": "external/corey/skills/sms/SKILL.md",
+      "bytes": 18421,
+      "sha256": "b4c7365b280ce1b2cffa58cffb11ca9f0d414fbccefae3e73c52312c52afab85"
+    },
+    {
+      "path": "external/corey/SOURCE.json",
+      "bytes": 800,
+      "sha256": "29ab92f346bd017d846501b8a853835da54c294d21be91cac8ad9b4198ef938b"
+    },
+    {
+      "path": "external/corey/UPSTREAM-README.md",
+      "bytes": 26003,
+      "sha256": "2ae2a80b25050eede87b72e4cb759b3205a21b2e96f2a862f8c5c291d3a7eaa3"
+    },
+    {
+      "path": "external/email-love/LICENSE",
+      "bytes": 1067,
+      "sha256": "1723374cfaa5d65aeda458a0d5ad01ed1a248c0895b8038d8af65fa682d115e2"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/agents/openai.yaml",
+      "bytes": 494,
+      "sha256": "4ffc56d52073ec7ffee361d4d7e6b0c76b88a0c7a5c9e320532e877e48f98003"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/audit.md",
+      "bytes": 61675,
+      "sha256": "8a5529984df66a4d66955b23ec5b156a7f5f1096aa9412a224447c024fc066c3"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/conversion-overview.md",
+      "bytes": 8418,
+      "sha256": "9b6b5544c1a835154bab544f2bd27fa5f8b328745f77a0d38e793ca3a690f3ff"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/foundations.md",
+      "bytes": 47914,
+      "sha256": "d651cac91f1b11e21738b1c303aaaf63e4338dca84d822018c21f8031627d34e"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/module-conversion.md",
+      "bytes": 64397,
+      "sha256": "cb2b52e050f1817cb69a6da226deeba7ba31b30207ee98006f945efa3700b87a"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/progress.md",
+      "bytes": 13460,
+      "sha256": "7ef79788a47913e2883e4170eb456fc421805d008ad87a1edb9ae33ba6b6ad86"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/render-components-validation.md",
+      "bytes": 20016,
+      "sha256": "d42f0ef1316ea2b49ad9801ecf788e9c1b27f6dfb656185b98e77b7e41fa0322"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/render-geometry.md",
+      "bytes": 47590,
+      "sha256": "083c7b831261438049cc21593afc4bb04eb67855a03eb39574ed0ebbb6db44cd"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/render-nodes.md",
+      "bytes": 43284,
+      "sha256": "282bf9b5240fffe762e348da34d8738c0173632238837e8f41dfc397496d3ab0"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/activecampaign.md",
+      "bytes": 1066,
+      "sha256": "fb08b7c590fdf9b8d0ef2f92278c6e2ffe7f2c9d311a001567d3af738e582a67"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/brevo.md",
+      "bytes": 1250,
+      "sha256": "75d2fdc2aeef8807f1540f8e1c0a2109957b56c9f184289808e5c2957ca73ea1"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/customer-io.md",
+      "bytes": 2734,
+      "sha256": "7b3f300679efe450474ad8010ba110b833cc5023c670fdfedac1cfab3ace3a72"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/google-drive.md",
+      "bytes": 1599,
+      "sha256": "25474ba9069c94dbed164d26d61badef898ef2af863852dc914ccbbcfc6bb1be"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/hubspot.md",
+      "bytes": 1211,
+      "sha256": "21eb15becb9a7af0bf8f6f8ab9bf0bf27f1672dce90b32b6954dd14d558190d7"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/iterable.md",
+      "bytes": 1199,
+      "sha256": "ce2c00e3ce9eeeee00c04781a63a7c94e456c33a868038d5531cda1a4f4061dd"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/kit.md",
+      "bytes": 994,
+      "sha256": "dbeb94f39e5909a170e59e2ff716c9c5cb696ce35a4eb402ef218218b6900f7a"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/klaviyo.md",
+      "bytes": 2202,
+      "sha256": "983d47f363a027de96230c9ca2b23acfa958c38218f69c57034d75029106ea45"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/local-folder.md",
+      "bytes": 2340,
+      "sha256": "46b6d075f9b2e0d745e92edf39424165b36be821648a259fd733a668795fbd76"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/marketo.md",
+      "bytes": 2695,
+      "sha256": "3a61bd71775cbd9b153b1ed3875c2e772cfe0db306e61e45ac5e9a4e943bca70"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/omnisend.md",
+      "bytes": 1019,
+      "sha256": "b2880b388145701174f58c329f3535fffd0ab933e3eeef0ef011df8bc8651c4a"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/references/sources/sharepoint.md",
+      "bytes": 1312,
+      "sha256": "b4ec7517d58d56a26b6d2f7e35d992250214e69227af0fd84837fb93a2a59a56"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-design-system-migration/SKILL.md",
+      "bytes": 15427,
+      "sha256": "b8b62477f2e7c846a70831840ca512d75f928c01c4d0a1d42dce88ee18975bc9"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/agents/openai.yaml",
+      "bytes": 457,
+      "sha256": "84c6afc9cf574df0bff8c67c2f25ec7783fceee8807bbc384d6cc474888e99f7"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/path-a.md",
+      "bytes": 10458,
+      "sha256": "8fd4236e0136c58bbe80d2952300938555cf8f0985b9904990ad6570a4c1066c"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/path-b.md",
+      "bytes": 23527,
+      "sha256": "1c3faee3c9763bd17350a5b80145cc02035b1c1efbbc8b867e349d49352d1c69"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/progress.md",
+      "bytes": 9336,
+      "sha256": "e3fa6420c25da44376a240f25bd5fa2b2884302e55b2ba9b67f84c70d67070d9"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/render-components-validation.md",
+      "bytes": 17844,
+      "sha256": "27e47c343f6b05fce33ef0f249fd663bb3ce75199e948bc740cc2cb0df6f9890"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/render-geometry.md",
+      "bytes": 39882,
+      "sha256": "f20140628e087881be35945b778fe2b28d685cb0555b79605b1b81debe7ef7a2"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/render-nodes.md",
+      "bytes": 34999,
+      "sha256": "6df2df540e0d70e65f3510be360b7e599879e06f0873b5eb4281b28646b3ec35"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/references/shared-rules.md",
+      "bytes": 18660,
+      "sha256": "e0dded222a3adfb15f00de6165be23a4cafe5a2b100015a4daa74ca9d4e49eef"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-builder/SKILL.md",
+      "bytes": 12244,
+      "sha256": "a8a17cbf802117ddc83f9dfa1ac9cb2b13c43f5551b6b32c9b7c1a070b67db1b"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/agents/openai.yaml",
+      "bytes": 488,
+      "sha256": "2c8afea780c6cf2297429bb8591cac5a90e929f305290c63386118e1c2e10472"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/references/quality-gates.md",
+      "bytes": 7330,
+      "sha256": "b5e829dee0eaa95bf140cb32c098cf3569e6594e7422eb27c27ebf3f9cd4802a"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/references/run-learnings.md",
+      "bytes": 4890,
+      "sha256": "95ce3100cd72a55aa2441e8a1edf7b8c7f9ef54089b079faa27302d51f4cfd1a"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/references/snapshot-schema.md",
+      "bytes": 5675,
+      "sha256": "5971f7944815612e38e86513da5cbbab3c969e28b607e3b201c68cb97efc4ee3"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/scripts/check_icon_perimeter.py",
+      "bytes": 6853,
+      "sha256": "a216909015b0ac037ff57af21f5e1bf110b4ac2c669d54f5e9b1dd8c5f14d6f4"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/scripts/validate_batch_snapshot.py",
+      "bytes": 30202,
+      "sha256": "f74352f7d8b10bed7e5072bc973461a90054dd3d12a5bdb7b69e225b89fb18b7"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-figma-quality-gates/SKILL.md",
+      "bytes": 5642,
+      "sha256": "fe8ff6b80338205267a21f1c754e96bf0a47013b3951ca912fa424f3856d82fb"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-template-repair/agents/openai.yaml",
+      "bytes": 488,
+      "sha256": "fe8079e55bbef3c14c176b7b01a2fc41a51cf6cfb06d612ce0d09f01ec7eff56"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-template-repair/references/diagnostic-workflow.md",
+      "bytes": 5084,
+      "sha256": "118f9766afd72d11b505426e36c1fe393cef6a450244f2f324a30895287fefc3"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-template-repair/references/repair-verification.md",
+      "bytes": 4310,
+      "sha256": "1ff6d7b6e85390550d6a4207e0cdf1dbb11c71425c67eeb3ea03698f2fd312d5"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-template-repair/references/symptom-cause-matrix.md",
+      "bytes": 6302,
+      "sha256": "2111c75d2a7ad61979f4baecc79ceeac53ca8d6af7fe836e61b4fad64cc9d120"
+    },
+    {
+      "path": "external/email-love/plugins/email-love/skills/email-love-template-repair/SKILL.md",
+      "bytes": 11508,
+      "sha256": "2f15beab9b46ad57c8b20dc041dd1c7c5d6fd9cf3d5566823e1b41803794c7e8"
+    },
+    {
+      "path": "external/email-love/SECURITY.md",
+      "bytes": 3225,
+      "sha256": "0b752a2bdad4a23616a0bc17b95ae0c7574f83e761c092816656f8dd4994576c"
+    },
+    {
+      "path": "external/email-love/SOURCE.json",
+      "bytes": 873,
+      "sha256": "5d21d223ecfcea9fb8b6a0d629ab8ff4a00578066f4f7f15226b386f1d8142d8"
+    },
+    {
+      "path": "external/email-love/UPSTREAM-README.md",
+      "bytes": 12587,
+      "sha256": "d3e58f599d5194f40f7ddd6108fb81ff9f31eaef725a1faca8bc2b189fd3840d"
+    },
+    {
+      "path": "external/email-love-esp/LICENSE",
+      "bytes": 1067,
+      "sha256": "1723374cfaa5d65aeda458a0d5ad01ed1a248c0895b8038d8af65fa682d115e2"
+    },
+    {
+      "path": "external/email-love-esp/SECURITY.md",
+      "bytes": 631,
+      "sha256": "be30450d28b98cfa33e28b83be1f26a9a53b46a2554528e4e379faf5215e272b"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/agents/openai.yaml",
+      "bytes": 558,
+      "sha256": "f58b3742f1f40daae9f0bc507e814211cb3a3c6e54e6ae6097b9f24ae8ecb7c2"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/evals/evals.json",
+      "bytes": 10174,
+      "sha256": "42d0236348aa73bf35637ddfd8753cd22d24d2f7bf5c59c56bf220f9d380f860"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/references/data-sources.md",
+      "bytes": 14727,
+      "sha256": "58057b342c25c509535d1fbd58b7520d5e7bed6d0e665abb2cd30b7398f576c3"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/references/figma-export.md",
+      "bytes": 15993,
+      "sha256": "8581c906201f3a37af5f5d7aaee073f9946a2c310c11ba070fc9f0d3cf5acf40"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/references/syntax.md",
+      "bytes": 14437,
+      "sha256": "ff86340003c4a6774b9bd8cc0e35b07b7022635f5daf31669e911dd5800c81f2"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/references/troubleshooting.md",
+      "bytes": 14101,
+      "sha256": "c59dd7836022ce592adaf872098aa8798dc5e8292a3fb51b0cdcf28cde6c9fd5"
+    },
+    {
+      "path": "external/email-love-esp/skills/klaviyo-django/SKILL.md",
+      "bytes": 20796,
+      "sha256": "1a80ce00ac74cf1f2795838c05321d09d854d7be2c52ce5aa420f8af9f69043e"
+    },
+    {
+      "path": "external/email-love-esp/SOURCE.json",
+      "bytes": 786,
+      "sha256": "b0b75ec1ac2c34c78c979468de835f7211dc53f7a0bdc11747e67343d7a38365"
+    },
+    {
+      "path": "external/email-love-esp/UPSTREAM-README.md",
+      "bytes": 20699,
+      "sha256": "79db59780e6c5b0d44b63ab28483ce7e3ef41ba2bfd73d8211f3a05449289dbb"
+    },
+    {
+      "path": "external/kinga-dow/EMAIL.md",
+      "bytes": 6113,
+      "sha256": "9fa5a5c12db873fa03476d1ac11d860c0813ef6e75a9a8bf4072f29a9dcd08db"
+    },
+    {
+      "path": "external/kinga-dow/LICENSE",
+      "bytes": 1066,
+      "sha256": "97e6c5f0e7389365a77c9a144283494d03de03355809bb4c7636f32716cac695"
+    },
+    {
+      "path": "external/kinga-dow/LICENSE-assets.md",
+      "bytes": 730,
+      "sha256": "da073d11e3f1f74ff0e97f50ed8541b6977202a08d376d676254fb85dde9ec96"
+    },
+    {
+      "path": "external/kinga-dow/SETUP.md",
+      "bytes": 5608,
+      "sha256": "b72fa730112fe1952042fcc883002785fe7838b64ae6baeb10242e7282d47fd1"
+    },
+    {
+      "path": "external/kinga-dow/skills/email-design/SKILL.md",
+      "bytes": 7190,
+      "sha256": "3897e307e88672a7462e41962abd3a854d357877189e574f6e34377a0b44fa38"
+    },
+    {
+      "path": "external/kinga-dow/skills/email-design-review/SKILL.md",
+      "bytes": 8051,
+      "sha256": "d9e62743aeef95f6092aa4bc0a7900fd94d0e4c1692a17b00a4e0cedce90a969"
+    },
+    {
+      "path": "external/kinga-dow/skills/email-remix/SKILL.md",
+      "bytes": 3154,
+      "sha256": "243fa71a7bbe11824866f819790a7bd1b18c7ca2be054c942e9537bfb317650c"
+    },
+    {
+      "path": "external/kinga-dow/skills/figma-email-readiness/references/report-template.md",
+      "bytes": 1460,
+      "sha256": "e1dd266b36b790f5aadb26bc8dfed18d4644d3783847ca27822971f0d453cdb4"
+    },
+    {
+      "path": "external/kinga-dow/skills/figma-email-readiness/references/rubric.md",
+      "bytes": 4911,
+      "sha256": "490e171b556e6076e44213ad5b1cf085c1bb2bfd3be6017f397a7560b8737782"
+    },
+    {
+      "path": "external/kinga-dow/skills/figma-email-readiness/scripts/audit.js",
+      "bytes": 20935,
+      "sha256": "cd72094adc5cd12d8d55befff69f072c335f789fb2152e80a6eb20e6201c9bef"
+    },
+    {
+      "path": "external/kinga-dow/skills/figma-email-readiness/SKILL.md",
+      "bytes": 6899,
+      "sha256": "0ce1f7b621cd13c8d72e23a32225766d2096ca67db614c603f138f7f06c9936c"
+    },
+    {
+      "path": "external/kinga-dow/SOURCE.json",
+      "bytes": 827,
+      "sha256": "57ec7bdc12774c8f6e28845a88e752fe1b5bbab485a0b70c310593709a27e7c2"
+    },
+    {
+      "path": "external/kinga-dow/UPSTREAM-README.md",
+      "bytes": 6216,
+      "sha256": "68e2f4ac78cc7d2523f771e876d61738b6afe6232fb9f875c8da232883e5f0af"
+    },
+    {
+      "path": "external/magnus/kanban-guru/evals/evals.json",
+      "bytes": 3480,
+      "sha256": "a002ba68ade183140cc0c0b84bc930ea9f50a106885c28b30889164091661726"
+    },
+    {
+      "path": "external/magnus/kanban-guru/README.md",
+      "bytes": 1559,
+      "sha256": "71b8147f7c2049a2c5611c2e66a2fc0cb60488325d08a50ff253b698eb725d53"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/cadences.md",
+      "bytes": 7153,
+      "sha256": "6d95291317eab273479862cab9784b374e9271ff2d189b0bc51c0e3024893ff1"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/classes-of-service.md",
+      "bytes": 5176,
+      "sha256": "82df3333c05698b630bcff0ece29782e3c4aa1a173cdc0ad0e05ce3783d1a2c0"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/flow-metrics.md",
+      "bytes": 6083,
+      "sha256": "f0fa8d7bde2b93f195859c9859ab1977fd5d3a67c282d05f15b4cd13339fe613"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/glossary.md",
+      "bytes": 7771,
+      "sha256": "cfbe4f5aaae3421b53948acc01e41604644d0f11e78ca9a908a66d76f87f7b69"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/multi-portfolio.md",
+      "bytes": 4400,
+      "sha256": "8c18547a29f3a2dd740038aa00bcbc762280243a5b250a946137e523295f5aa2"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/transition-guide.md",
+      "bytes": 5669,
+      "sha256": "5bdbb409905994243007e292e141d5c8d96642c7fec3b2988e766b393d932158"
+    },
+    {
+      "path": "external/magnus/kanban-guru/references/wip-limits.md",
+      "bytes": 3946,
+      "sha256": "e40ec05d1e5a7107b337ed7227e29082bb0079909a9ce0554ce107915d9689c9"
+    },
+    {
+      "path": "external/magnus/kanban-guru/SKILL.md",
+      "bytes": 10158,
+      "sha256": "67b344165a8f860a3f32dc0d1d39450e79a688941f871675bb4cac7a01381d0a"
+    },
+    {
+      "path": "external/magnus/LICENSE.md",
+      "bytes": 1072,
+      "sha256": "22fa3b1ec405fe440e86d0d293ce21de0c637ebc37f263dbe3032ee47215cfe2"
+    },
+    {
+      "path": "external/magnus/meetings/evals/evals.json",
+      "bytes": 29278,
+      "sha256": "a8efff355066f728e7dddc72bf13aed6d30bc2b5511d35b8da2f299685b133f9"
+    },
+    {
+      "path": "external/magnus/meetings/evals/rubric-notes.md",
+      "bytes": 2863,
+      "sha256": "0ee04da41b642f075ec803758238dd5d45065064e2ffcfc0d045a021d01f571c"
+    },
+    {
+      "path": "external/magnus/meetings/README.md",
+      "bytes": 2320,
+      "sha256": "2d2f377a43bed3314b6b41b3e686518d133d7f797431f695014749cec2bff52f"
+    },
+    {
+      "path": "external/magnus/meetings/references/access-and-facilitation.md",
+      "bytes": 6891,
+      "sha256": "b67352de2f6879bd2b5a5eff7a166f93dffd7826d26bc5a182fef44b0c09c889"
+    },
+    {
+      "path": "external/magnus/meetings/references/decision-contract.md",
+      "bytes": 3831,
+      "sha256": "4640422d6a76b17e07e92c26a10bce043a485adeaa160b061edd1cbe81ce465b"
+    },
+    {
+      "path": "external/magnus/meetings/references/evidence.md",
+      "bytes": 13521,
+      "sha256": "89bafe916b973324e119b39a340aee8783ece4c27a2a12385802ab0071a3a8d9"
+    },
+    {
+      "path": "external/magnus/meetings/references/live-facilitation.md",
+      "bytes": 4481,
+      "sha256": "f4a56bdfc3283c6fe709c62c5d9ef96400b77bfd40b6d4dc2463410558963bb4"
+    },
+    {
+      "path": "external/magnus/meetings/references/one-on-ones.md",
+      "bytes": 6954,
+      "sha256": "b69e2d2fd2e57c7408fc32e7d4a2fa0b63e2a6bf630b0ba70479c2dcfad27d73"
+    },
+    {
+      "path": "external/magnus/meetings/references/planning.md",
+      "bytes": 8365,
+      "sha256": "8bae1e735cb0fb2faa4e061094d2c824407fbd894dfa3170c9008023c11787e2"
+    },
+    {
+      "path": "external/magnus/meetings/references/records-and-follow-up.md",
+      "bytes": 5496,
+      "sha256": "30c26b2dca603571cda3b2598ce381ae3b3df437334a79ab08bb988997a9816d"
+    },
+    {
+      "path": "external/magnus/meetings/SKILL.md",
+      "bytes": 8051,
+      "sha256": "0563f318ab73cba68008e06baa088c37944f6ec4acf37844a136f1a77987d389"
+    },
+    {
+      "path": "external/magnus/meetings/templates/meeting-brief.md",
+      "bytes": 2070,
+      "sha256": "4140931348a8f0a735c157fbd228e3fb5277c53e0a2c0a754480361f525a6eda"
+    },
+    {
+      "path": "external/magnus/meetings/templates/notes-and-decisions.md",
+      "bytes": 1271,
+      "sha256": "b220221b5ec263ef53f6501eee13e426b96cb6aed5dbadbae7f73293824e336c"
+    },
+    {
+      "path": "external/magnus/meetings/templates/organizer-aftercare.md",
+      "bytes": 690,
+      "sha256": "4b0fc5c5c8247e17fc3000b1545db4002a05020909d9550bc175f91cd1cd7611"
+    },
+    {
+      "path": "external/magnus/SECURITY.md",
+      "bytes": 896,
+      "sha256": "862f49a34dff9f43e8bba200cd26a7fe655ffa562a769ab7a43cb0c3277c8bb5"
+    },
+    {
+      "path": "external/magnus/SOURCE.json",
+      "bytes": 786,
+      "sha256": "9fef73532b7414d9552a4596e823fa2f072ec274004463ece6720be5710add38"
+    },
+    {
+      "path": "external/magnus/technical-program-management/evals/evals.json",
+      "bytes": 8017,
+      "sha256": "36e981162f065f745be973b23527778f052b23aca1ae9f2bf3a40444af4d3d3f"
+    },
+    {
+      "path": "external/magnus/technical-program-management/README.md",
+      "bytes": 2452,
+      "sha256": "a5525ddf3a70e8687fba231214b8fc0839d165e8733d2c769befebed99decb6b"
+    },
+    {
+      "path": "external/magnus/technical-program-management/references/assurance-and-intervention.md",
+      "bytes": 2916,
+      "sha256": "304b8bb91ba5797fbb18c46c77e5a18222ea0f206551ba7963d6b77d1dacfb4c"
+    },
+    {
+      "path": "external/magnus/technical-program-management/references/benefits-and-transformation.md",
+      "bytes": 2484,
+      "sha256": "a6a1495cc67a85c4857aab99752bc76868e621e7cf8e42620e839d474b2f84de"
+    },
+    {
+      "path": "external/magnus/technical-program-management/references/benefits-dependency-and-tranches.md",
+      "bytes": 2686,
+      "sha256": "40acdf016d199f81273f996a34de0ee91f51228e49a48f35731d0c1b6d8f9805"
+    },
+    {
+      "path": "external/magnus/technical-program-management/references/program-control.md",
+      "bytes": 2893,
+      "sha256": "55b4c2e0a185e5fedad61c9b65a96c86c7eea76d94621dc4376894c78f86c005"
+    },
+    {
+      "path": "external/magnus/technical-program-management/references/research-ledger.md",
+      "bytes": 4386,
+      "sha256": "a9e2a90b18f62ca1a3646a0d08ada3c0cb95673427802bfd951c2ef7eff9b91f"
+    },
+    {
+      "path": "external/magnus/technical-program-management/SKILL.md",
+      "bytes": 13915,
+      "sha256": "e221720962ae04e73f9548882c165709aa0bc060ff200f2153f1343b344c563c"
+    },
+    {
+      "path": "external/magnus/technical-program-management/templates/assurance-review.md",
+      "bytes": 860,
+      "sha256": "35a3080b1b42c2557d330afcd7dd49d42c3d9d1b1cc8eb9e4dc235fb8aefb81f"
+    },
+    {
+      "path": "external/magnus/technical-program-management/templates/benefits-dependency-map.md",
+      "bytes": 671,
+      "sha256": "f756520a8ae2b0bed05cb7f75827e0c683c904e26ab32720dc63ba9a1a97200d"
+    },
+    {
+      "path": "external/magnus/technical-program-management/templates/integrated-control.md",
+      "bytes": 1016,
+      "sha256": "305b85a2040e3176cf8ccd254fc6816cb58c28f3897a10c68c0c2ad01da39bc5"
+    },
+    {
+      "path": "external/magnus/technical-program-management/templates/program-brief.md",
+      "bytes": 832,
+      "sha256": "7eff619b78dcb85d076ac3c4c518fc660252213717f5fe070ce2983515af777f"
+    },
+    {
+      "path": "external/magnus/technical-program-management/templates/stakeholder-update.md",
+      "bytes": 902,
+      "sha256": "a11cd778582717d008e65dd2b135c20db0d1b63c5b494db3c0b9b4d54135533b"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/evals.json",
+      "bytes": 8839,
+      "sha256": "95c2973ab1a15cf69ae51a9e9ebd27b39eb4674e138630737e34068b274d4524"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/sample-review.md",
+      "bytes": 3923,
+      "sha256": "483be7b5c85ede5d2fb8915c208bd9e0423f8f06cf4dfd29254446a12bddb3a8"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/baseline-expert.md",
+      "bytes": 2258,
+      "sha256": "41dcf4185865dc6802e72aed898a1b5c1ac9e3525f5efd97df276ad9ee09c2e9"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/baseline-schedule.md",
+      "bytes": 1457,
+      "sha256": "b23be60f3bdebb33a2c1695d5ee2d57db07538719762bbab99189facc27d6ded"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/baseline-team.md",
+      "bytes": 2234,
+      "sha256": "e4fc0fe9ec9972c0f84b2d151b46d76357832b09b358a93c19071e81c4f3dcb4"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/final-team-provenance.json",
+      "bytes": 789,
+      "sha256": "ff0d799c669d62ef62b548d64ef5a3fb0b2eb0e00b6bcc1bbd6d6ea4df01d8be"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/final-team.md",
+      "bytes": 4737,
+      "sha256": "43178f2b1ca911774353b51ed15e582f57ec4555a123310485d6d44da5c4a2e3"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/with-skill-expert.md",
+      "bytes": 2582,
+      "sha256": "06b83f93355fc9d7d2fdc7951d50a53e0d981e9e0f4013b72b7e9718c8c98940"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/with-skill-schedule.md",
+      "bytes": 1925,
+      "sha256": "ac3b8337f96a92f1f00d1239183bc668c3abbaef6dab60a25dbd4ad782ea49c2"
+    },
+    {
+      "path": "external/magnus/technical-project-management/evals/samples/with-skill-team.md",
+      "bytes": 3652,
+      "sha256": "0f578aab0abf335b34a62637e66cdaa7663792b1357acda7c74719ef79d30edd"
+    },
+    {
+      "path": "external/magnus/technical-project-management/README.md",
+      "bytes": 2352,
+      "sha256": "2602fa619d6541a119e6dabd2ff6aeeed27e730e18890490a5b193993463c681"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/adaptive-delivery.md",
+      "bytes": 3227,
+      "sha256": "d426585665567d4b5d9412760d53afc95996752c8e3fc9e0d1b2dc7b8f8dee86"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/case-studies.md",
+      "bytes": 4200,
+      "sha256": "8941ab46e8917a570ad26a2e9252d2da654e0c847653e1a7cc5c61fe18c68cac"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/change-and-recovery.md",
+      "bytes": 3623,
+      "sha256": "9f9d3398d0d061b4a1af984a7d0e3fa495116ac26b3db532bdd1b229aceb7335"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/closure-and-transition.md",
+      "bytes": 2558,
+      "sha256": "496289f3a2c019df40c37e2bde400af68322ef77bd9befe95afd179bfe055fd1"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/control-and-communication.md",
+      "bytes": 3545,
+      "sha256": "a5a9f8c6baf71696d2d43baedd4989d01649d381880149897e7912797da8cd53"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/engagement-and-initiation.md",
+      "bytes": 3579,
+      "sha256": "79733a8b988845622db5cb6f5e15e1b29dffa8a7513b31e04c82096dbf5847da"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/evaluation-guide.md",
+      "bytes": 2981,
+      "sha256": "0d6f0a4dc04c3d44e05c06e2a466a3e15e80427a2960b720d5dd50d29ac9e18e"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/flow-and-capacity.md",
+      "bytes": 2944,
+      "sha256": "776ca07c6a4cb083a6051861490a31b17ecdbff652379076101dc5ba6b176fac"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/forecasting.md",
+      "bytes": 5040,
+      "sha256": "1e28990c1d2c68e583ac2daf1481808bb900db5b4402832a7374fd5170633cf0"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/hybrid-and-dependencies.md",
+      "bytes": 3397,
+      "sha256": "e0420b8680d9c1176c7a3a2f6a7821a12a4158a243339f011f39f6e4468a9fac"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/method-selection.md",
+      "bytes": 4167,
+      "sha256": "cf5724eb6552b2b2e71643c6c849b4f516891f1a63af71e1dda2d656ed2b18f9"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/predictive-and-stages.md",
+      "bytes": 3061,
+      "sha256": "f0afbd9250eb4863b0a687d018f3cbf0aa751244c6d527957ed830f394c8d709"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/research-brief.md",
+      "bytes": 3962,
+      "sha256": "5dc89edb043c21f69e116e18e2e26f4032d8852f3bd519086c3a009e168be80e"
+    },
+    {
+      "path": "external/magnus/technical-project-management/references/source-index.md",
+      "bytes": 6270,
+      "sha256": "20a9983d38cdbe10c4d55be8cb91fd7b1a0e44d3dd333915aea3d86a06b4aeb7"
+    },
+    {
+      "path": "external/magnus/technical-project-management/scripts/schedule.py",
+      "bytes": 7463,
+      "sha256": "2261fc632ce3aa2143d4e2fd4130c61c820e2acec9beed5db65805602c5ae1eb"
+    },
+    {
+      "path": "external/magnus/technical-project-management/scripts/test_schedule.py",
+      "bytes": 6889,
+      "sha256": "fc0e3fab0c70d6060c3cfa899ef57e6b07f7ce363ec89aff871a96f0854de634"
+    },
+    {
+      "path": "external/magnus/technical-project-management/SKILL.md",
+      "bytes": 11776,
+      "sha256": "e389237f52fa197e5ceecf9f04da83c1fec110f41dbec0122e20da25e717b111"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/approach-decision.md",
+      "bytes": 1089,
+      "sha256": "ad970b378b80df5be112c1986864cab8c7a4bdfdb8dceede469a8e96bb0f9969"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/change-and-recovery.md",
+      "bytes": 1117,
+      "sha256": "f52c3d9cab7bafd8608c82db66993aef8a61071080055b510e868f9490ecd55b"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/closure-record.md",
+      "bytes": 1066,
+      "sha256": "9853bbafce4a748c60e8cabf3e1953e3e7b82c6567197a9c1262feb16b9960f5"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/dependency-agreement.md",
+      "bytes": 854,
+      "sha256": "077b1520a5bc7826eeba0cd9181cd408a518a422bb1a8a8b2d64d115973c6bd6"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/project-brief.md",
+      "bytes": 1492,
+      "sha256": "0770fc068df4349dbca3dbde7e48fb139563851e67097ec1e33b8d53de72b4f0"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/project-control.md",
+      "bytes": 1550,
+      "sha256": "6af092aa2228c9b1ca4ad8007238ab8cec6e4c9b794c9a309369da83c2afd4d1"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/schedule-example.json",
+      "bytes": 400,
+      "sha256": "c19d13629ba7e01afdcc19d44821c46aa25e06c9b4f43a8e4fd9cd521e43c528"
+    },
+    {
+      "path": "external/magnus/technical-project-management/templates/status-and-decision.md",
+      "bytes": 920,
+      "sha256": "ffa4ea244257e725332e0fa5fb909d38cf0054e4b6bfe874989293b90efbf8ba"
+    },
+    {
+      "path": "external/magnus/UPSTREAM-README.md",
+      "bytes": 85599,
+      "sha256": "32c750e42263b3a0bda74f49fc2847b2d22ec3aa2f1ab9332cc6cbcb5bf7cdba"
+    },
+    {
+      "path": "external/rebecca/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/SECURITY.md",
+      "bytes": 2715,
+      "sha256": "23bbe352119e97a918ee94f86a13ac4ffde7d090a3a571f3a2bdb926214d6a51"
+    },
+    {
+      "path": "external/rebecca/skills/ab-testing-framework/EXAMPLES.md",
+      "bytes": 2019,
+      "sha256": "7d93f0e7ef8ef4c0eced1f3f41e7184465a2f38c81c7618ae832714d1e6ade7d"
+    },
+    {
+      "path": "external/rebecca/skills/ab-testing-framework/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/ab-testing-framework/REFERENCE.md",
+      "bytes": 223,
+      "sha256": "dfdab22d6f14a0d3d89eb113a701e10d5c1aaa28bbbe6fdac19b73925fb609d8"
+    },
+    {
+      "path": "external/rebecca/skills/ab-testing-framework/SKILL.md",
+      "bytes": 5409,
+      "sha256": "3403bd69091afe902f5bfe63189a708e265b8aa42eb2bb5a28c5b110a58e9b43"
+    },
+    {
+      "path": "external/rebecca/skills/brand-dna/EXAMPLES.md",
+      "bytes": 5506,
+      "sha256": "5470f098d2ba12b01fefe9663f9f1ff210898e7ec6f08ad8a29267767d8edb33"
+    },
+    {
+      "path": "external/rebecca/skills/brand-dna/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/brand-dna/REFERENCE.md",
+      "bytes": 6544,
+      "sha256": "952a156097e8d8e592a8d6fe7a3ea6c5d7d0011b3696e93a9e76ec507bebdb86"
+    },
+    {
+      "path": "external/rebecca/skills/brand-dna/SKILL.md",
+      "bytes": 7091,
+      "sha256": "a273bfa6217b729d43cfe5353311a58928d4e41336671f03a6251d5c1a1a3723"
+    },
+    {
+      "path": "external/rebecca/skills/brand-voice-guidelines/EXAMPLES.md",
+      "bytes": 2228,
+      "sha256": "62f2d1e0b80ffe2e7c377277ba2b1d2b8b5c660a2e1fe956eb858fd50d4a4107"
+    },
+    {
+      "path": "external/rebecca/skills/brand-voice-guidelines/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/brand-voice-guidelines/REFERENCE.md",
+      "bytes": 227,
+      "sha256": "2a2d6c6cf04edb95d28da091a8493a6c336acb868da32e677a7ee8ea42040420"
+    },
+    {
+      "path": "external/rebecca/skills/brand-voice-guidelines/SKILL.md",
+      "bytes": 5972,
+      "sha256": "6342a138906a4bbfefed60ca23cf7bdec56de26e204d0d1164712df6c0295eb3"
+    },
+    {
+      "path": "external/rebecca/skills/copywriting-frameworks/EXAMPLES.md",
+      "bytes": 2463,
+      "sha256": "ad63443e14c2b7c0e78cd2864976bb0da48d22bf571e15dacedfdcce64a68944"
+    },
+    {
+      "path": "external/rebecca/skills/copywriting-frameworks/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/copywriting-frameworks/REFERENCE.md",
+      "bytes": 227,
+      "sha256": "0da5f0d4506bc6d1288f1598125d9eebbea097a1cdeadf9e9e2562de5bf9d8de"
+    },
+    {
+      "path": "external/rebecca/skills/copywriting-frameworks/SKILL.md",
+      "bytes": 7414,
+      "sha256": "96cea7e88f16cfbf1ed6b93d0c32bfcade8ede3dc22c6c6c5234e49b1708979a"
+    },
+    {
+      "path": "external/rebecca/skills/customer-journey-mapping/EXAMPLES.md",
+      "bytes": 1758,
+      "sha256": "e88be7a4abdf03b2f5bb351c79955cf67470a61603426243d94e230a8ce088b5"
+    },
+    {
+      "path": "external/rebecca/skills/customer-journey-mapping/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/customer-journey-mapping/REFERENCE.md",
+      "bytes": 231,
+      "sha256": "a3e35c9c7970c30e49464e8157690effb640a764deb819f44d22a833fb72ac58"
+    },
+    {
+      "path": "external/rebecca/skills/customer-journey-mapping/SKILL.md",
+      "bytes": 4608,
+      "sha256": "1e05f6e2cc211ba8dffea1d28c4bb53d513a8b50005fdfc5b80f33ccb3386d88"
+    },
+    {
+      "path": "external/rebecca/skills/email-composer/EXAMPLES.md",
+      "bytes": 3591,
+      "sha256": "562d39f442e7a104198bf8bbfcfc480bdae1fa003139ea5ebfbdbce056ce5970"
+    },
+    {
+      "path": "external/rebecca/skills/email-composer/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/email-composer/REFERENCE.md",
+      "bytes": 5316,
+      "sha256": "bd9f50ff2b4eaea6ca9e0b4024064daf4c4f5226b42e466f4d99da8825c69251"
+    },
+    {
+      "path": "external/rebecca/skills/email-composer/SKILL.md",
+      "bytes": 3984,
+      "sha256": "a57f202f372e7818c7cffc6f1196ce5a861aa3c8ca80aebb1b81361ad14ef3d2"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/.env.example",
+      "bytes": 757,
+      "sha256": "2d55f7acf808829fcfd3409f6f3700b1208cd09c94cdb510c373d583e7c11ce3"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/EXAMPLES.md",
+      "bytes": 12254,
+      "sha256": "af48f7c555b5c1c937cd9272c68d9f6e224a7e035b0003cfe026ef331c52acc4"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/REFERENCE.md",
+      "bytes": 19803,
+      "sha256": "cc6fa03a4c4758598e49a56fba7c9f9e77ab70655d3faa87b5ed468a5a3d14ed"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/requirements.txt",
+      "bytes": 141,
+      "sha256": "efbbfaaa74de119ba35d5269405a6e71b3be0f1f0a5748b1bf45d1804eddf1f8"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/scripts/analyze.py",
+      "bytes": 33663,
+      "sha256": "fcb13b6d3b57d9bc65ecb9b041f4a72b0a20bf29d824ee64e827fe668a0d5609"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/scripts/klaviyo_client.py",
+      "bytes": 15950,
+      "sha256": "501315dfb344dc6b20d666b14479d89ffae6d7111c594ac4b7837be7535f19f6"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-analyst/SKILL.md",
+      "bytes": 20181,
+      "sha256": "6ffb016d4db1cb8d236fc4c80de4c8df4489ebe8aa1a8f44218362e466cf1ef9"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/.env.example",
+      "bytes": 968,
+      "sha256": "7279e943c3fd289fbc894869a4bea915d01978c3995de6783234d7a4a92f8be0"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/EXAMPLES.md",
+      "bytes": 15813,
+      "sha256": "7c3cd72c8704f2b6f220d1a68c8601a10e72c1278687f309264d2b2ad058fa30"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/REFERENCE.md",
+      "bytes": 42111,
+      "sha256": "12451cc5772f75c21ff31024c0648710a06af048b9dc00dcf4bb14edac92c131"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/requirements.txt",
+      "bytes": 143,
+      "sha256": "a47156aaec365e5004a1a3b893925f51f2c7c7545bcf9177a85a3436eef990ad"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/scripts/dev_tools.py",
+      "bytes": 23319,
+      "sha256": "288568ae24ba5d0fd352b3e9385aa15c8e63c662bc84e1d4da9d05e15e8525fb"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/scripts/klaviyo_client.py",
+      "bytes": 22052,
+      "sha256": "414b6d94a9825be08825e2febd1163f4c927e9c32c5aa105e69baea343236c73"
+    },
+    {
+      "path": "external/rebecca/skills/klaviyo-developer/SKILL.md",
+      "bytes": 19747,
+      "sha256": "a39e81e3f89dbfbbf7d763be6e4c9cd6baffc197e79bcbab0b50d320909073e1"
+    },
+    {
+      "path": "external/rebecca/skills/retention-churn-prevention/EXAMPLES.md",
+      "bytes": 1793,
+      "sha256": "d22b2cde0798f20bb583c7bf9607c4961f04264059e6c90cd392a37d8385b708"
+    },
+    {
+      "path": "external/rebecca/skills/retention-churn-prevention/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/retention-churn-prevention/REFERENCE.md",
+      "bytes": 235,
+      "sha256": "68581e7e567c58b08e394b67210bbc33d78a4f650ac6d5788d6ba13d4c495004"
+    },
+    {
+      "path": "external/rebecca/skills/retention-churn-prevention/SKILL.md",
+      "bytes": 4028,
+      "sha256": "03e32225aa6940eb28672bbd44d877b242d0f2341fc676fb5911fe72d41ec85f"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/.env.example",
+      "bytes": 816,
+      "sha256": "090a5b083287446f05f1d378dea3698f530efc83ab82620c51dddeed95bfa766"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/EXAMPLES.md",
+      "bytes": 10980,
+      "sha256": "11aaf379b50236b59a956f23abd81766c4834a20549bad3652ed361b253a0f47"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/LICENSE",
+      "bytes": 1075,
+      "sha256": "61271ce5f2e1c31e784c904fd56ace5cb0affe4c952d213205f27837e545500f"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/REFERENCE.md",
+      "bytes": 13359,
+      "sha256": "2044b9a5514cd098b1452a78923818515b2af997bc4f18b9d92b80f3ec560db3"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/requirements.txt",
+      "bytes": 157,
+      "sha256": "941d95497d6588c5a6f0a02975254b9b425a1edc52aacd96c1dda506cf07d705"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/scripts/analyze.py",
+      "bytes": 30150,
+      "sha256": "14aeb350a59578efce70c05cea26f953ea419d6b9f0578ed4f6f91bf70b9c298"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/scripts/shopify_client.py",
+      "bytes": 14235,
+      "sha256": "5b6b69e2ad10b0ba0d0ffa3fb2ee0cdde9c19fdc97c8872707dba51d53d21bb8"
+    },
+    {
+      "path": "external/rebecca/skills/shopify/SKILL.md",
+      "bytes": 9659,
+      "sha256": "8d846356e4a58193bb7f2a5b504e6790fbcd8e485a8104a09522c348648e8a04"
+    },
+    {
+      "path": "external/rebecca/SOURCE.json",
+      "bytes": 870,
+      "sha256": "e60ed1e50ff7e5a0aa84bde01c648637f892cd2eac32a63977e1b484bffaf624"
+    },
+    {
+      "path": "external/rebecca/UPSTREAM-README.md",
+      "bytes": 33485,
+      "sha256": "29ae4d1e614af09d228f7a77912464401425e1253de7adf2a521c0dcad1f788b"
+    },
+    {
+      "path": "external/rob-palmer/ad-copy/references/meta-ad-specs.md",
+      "bytes": 2006,
+      "sha256": "b00142943a1e3f90cb970ead520c2794084c6964d08bfd48ba831dce7352de53"
+    },
+    {
+      "path": "external/rob-palmer/ad-copy/SKILL.md",
+      "bytes": 22087,
+      "sha256": "1886eea55d1cf943d85854a6e0cbc199f786c0b92cfc5f354489be5c24666cb5"
+    },
+    {
+      "path": "external/rob-palmer/compliance-checker/references/trigger-words.md",
+      "bytes": 5250,
+      "sha256": "0488b5859f76ddf73fc4510b70de556920163f64fa6aaedf1c908c933fa5f4e0"
+    },
+    {
+      "path": "external/rob-palmer/compliance-checker/SKILL.md",
+      "bytes": 16808,
+      "sha256": "2d7b66767e87c75e0e6c51d470b3dca32ea5cf7cf35a1a005d9228d81ca3b8c9"
+    },
+    {
+      "path": "external/rob-palmer/copychief/SKILL.md",
+      "bytes": 6426,
+      "sha256": "a542a619651a317068be38524e1991d6e37f454c038d9a976d129f052ee9420c"
+    },
+    {
+      "path": "external/rob-palmer/direct-response-copy/SKILL.md",
+      "bytes": 21417,
+      "sha256": "2c8ac4cc24a1b3ce6e1ca112326e5273735d384a01ddcac47e09e0cf7040ba9c"
+    },
+    {
+      "path": "external/rob-palmer/landing-page-copy/SKILL.md",
+      "bytes": 17608,
+      "sha256": "b7e80b063d0eb1d267c682fd24a23a1a7598fcec81cf2572e2c80aa79d2da2c7"
+    },
+    {
+      "path": "external/rob-palmer/LICENSE",
+      "bytes": 1670,
+      "sha256": "cfd5cb097c7ee8ffe505aa260fb32a37c67a32ae05f1197663483cc1824adc3a"
+    },
+    {
+      "path": "external/rob-palmer/SOURCE.json",
+      "bytes": 796,
+      "sha256": "715e79452ffb3ad8ea8b9897e81ac29493e25b09b9425f956725cf921b4eb3ff"
+    },
+    {
+      "path": "external/rob-palmer/UPSTREAM-README.md",
+      "bytes": 3110,
+      "sha256": "6040829fa60aaa4312e9594f6282bc47051325995e30ee4b4fa1cbeab2d56a62"
+    },
+    {
+      "path": "external-manifest.json",
+      "bytes": 87359,
+      "sha256": "f5025e99ada59e636da9463476a84df7131ca92a3b553e415b8fb0a7f7cbac27"
+    },
+    {
+      "path": "EXTERNAL-SKILLS.md",
+      "bytes": 20307,
+      "sha256": "316276f6f4b915ccfda7e7eee2126d48f19f92daf150b9d4608fe56e3ec677d8"
+    },
+    {
       "path": "install.py",
-      "bytes": 1929,
-      "sha256": "196757aa0d1823d452e6858206389b1d1d5a70c3338c578122801fa6f35f9bde"
+      "bytes": 3697,
+      "sha256": "c43234f39279f715b42af4c776334c0d0b5aff1ed30afcb1a820dbb794536cca"
     },
     {
       "path": "inventory.json",
@@ -26,13 +1747,13 @@
     },
     {
       "path": "LICENSE-NOTES.md",
-      "bytes": 2016,
-      "sha256": "903c7ca4d3cebca39c6ff03e6d21db49e7c273f14afaecc04d8b5760e1ee8d1f"
+      "bytes": 2826,
+      "sha256": "13be35a99c8440bfa8c453fdced71163e2c2cc879e7837b3d70acdad9ca62c6c"
     },
     {
       "path": "README.md",
-      "bytes": 9508,
-      "sha256": "e7c5fe9d5a46fc2b01803a58586ce5f18234aa663b31e67561af0bc680e2b130"
+      "bytes": 11761,
+      "sha256": "04c6088aef5a8134989d48417a453bae35ad843a28854742a5ea07fa5d90367a"
     },
     {
       "path": "skills/swayleo-academy-resource/references/output-worksheet.md",

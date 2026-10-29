@@ -7,9 +7,9 @@
 
 Retention · Lifecycle · Copy · Design · Automation · Operations
 
-**23 Swayleo workflows · 43 existing vendor skills bundled · 166 skills audited**
+**23 Swayleo workflows · 48 external skills · 43 existing vendor skills bundled**
 
-[Get the library](swayleo-skill-library.zip) · [Explore the skills](#pick-the-job) · [Full Codex catalogue](CATALOG.md) · [What was audited](AUDIT.md)
+[Get the library](swayleo-skill-library.zip) · [Explore the skills](#pick-the-job) · [External collection](EXTERNAL-SKILLS.md) · [Codex catalogue](CATALOG.md) · [Audit](AUDIT.md)
 
 ---
 </div>
@@ -68,6 +68,32 @@ The original nine short starters have been replaced. Each Swayleo skill now has 
 | [Qa Comments](swayleo-qa-comments.md) | Write, revise and verify short actionable QA comments without duplicating threads. |
 | [Academy Resource](swayleo-academy-resource.md) | Curate external learning and turn verified internal workflows into reusable training. |
 
+## 48 external skills, sourced and credited
+
+We also searched skill directories and the authors' original repositories. The library now includes full source folders from seven external projects, pinned to specific commits with supporting resources and licence notices.
+
+| Start here | What is included |
+| :-- | :-- |
+| [Direct-response copy](external-rob-palmer-direct-response-copy.md) | Rob Palmer's copywriting, ad copy, landing pages, copy review and compliance-review aid |
+| [Lifecycle email strategy](external-corey-emails.md) | Corey Haines's email, SMS, research, offers, testing, marketing and sales workflows |
+| [Klaviyo analyst](external-rebecca-klaviyo-analyst.md) | Rebecca Rae Barton's Klaviyo audit/development, journeys, retention, brand and Shopify workflows |
+| [Figma email builder](external-email-love-email-love-figma-builder.md) | Email Love's Codex builder, repair, migration and quality gates |
+| [Klaviyo personalization](external-email-love-esp-klaviyo-django.md) | Klaviyo Django tags, fallbacks, troubleshooting and Figma export placement |
+| [Brand-component email design](external-kinga-dow-email-design.md) | Kinga Dow's design, review, remix and readiness workflows with EMAIL.md |
+| [Project management](external-magnus-technical-project-management.md) | Project/program delivery, Kanban and meetings |
+
+Read the [complete external guide](EXTERNAL-SKILLS.md) for all 48 skills, sources and dependencies. Use one suitable workflow per job rather than loading competing copy/design systems together. Sample performance numbers, legal guidance and benchmarks need current brand-specific verification.
+
+External skills are **opt-in**. Preview an installation from the extracted library:
+
+```bash
+python install.py --external rob-palmer/direct-response-copy
+python install.py --external rebecca/klaviyo-analyst --apply
+python install.py --external all                 # preview all 48
+```
+
+They do not connect accounts, activate campaigns or install service tooling. External executable helpers are included as source and were not run for this collection.
+
 ## Give your agent the library
 
 Copy this:
@@ -77,7 +103,8 @@ Review https://github.com/Logarn/swayleo-agentic-skills.
 Download and inspect swayleo-skill-library.zip. Read README.md and AUDIT.md.
 Install all 23 Swayleo workflow folders with their references into your
 supported skill directory. Preview first; do not overwrite existing skills.
-Review CATALOG.md for the other relevant Codex capabilities and tell me
+Review EXTERNAL-SKILLS.md and install the external skills relevant to my job
+after checking their prerequisites. Review CATALOG.md and tell me
 which official plugins and account connections are needed for my work.
 Use the vendor source snapshots as reference; do not claim that copying
 instruction files installs connectors or enables service access.
@@ -98,7 +125,7 @@ Select a workflow or choose another skill directory:
 python install.py --skill swayleo-flow-strategy --destination /your/skills/path
 ```
 
-The installer is plain Python with no external dependencies. It installs only Swayleo workflows and keeps their worksheets. Other agents can use the same Markdown instructions with their own supported skill layout.
+The installer is plain Python with no external dependencies. It defaults to the 23 Swayleo workflows and keeps their worksheets; external skills need --external. Other agents can use the same Markdown instructions with their own supported skill layout.
 
 ## Existing skills, kept complete
 

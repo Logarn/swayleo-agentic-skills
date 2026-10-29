@@ -26,3 +26,9 @@ The runtime source-repository metadata does not establish that those exact paths
 Package manifests marked Proprietary, UNLICENSED or without a declared redistribution licence are not bundled merely because they are installed locally. They remain visible in the catalogue with their setup route. Install the official plugin under its terms.
 
 Tool availability, service access and authorization remain separate from instruction-file licensing.
+
+## Added external collection
+
+The external source folders retain the original notices from Corey Haines, Rebecca Rae Barton, Email Love, Kinga Dow and magnus919 under MIT. Rob Palmer's five copywriting skills are distributed under CC BY 4.0, with credit to **Rob Palmer — https://robpalmer.com/blog/claude-code-copywriting-skills** and a link to https://creativecommons.org/licenses/by/4.0/.
+
+No author endorsement is implied. Original source folders are unmodified; reading previews add an attribution/setup header and rewrite relative Markdown links to the pinned upstream revision. Source provenance and exact hashes are in external-manifest.json. Original licences accompany the packages and are copied by the optional installer. Kinga Dow's separately licensed example-brand image assets are excluded.
