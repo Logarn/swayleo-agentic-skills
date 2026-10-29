@@ -3,26 +3,106 @@
 # SWAYLEO
 ### Agentic Skills
 
-**Your agent. Our playbook. A lot less starting from scratch.**
+**A shared toolkit for better work across every brand.**
 
 Retention · Lifecycle · Copy · Design · Automation · Operations
 
-**23 Swayleo workflows · 48 external skills · 43 existing vendor skills bundled**
-
-[Get the library](swayleo-skill-library.zip) · [Explore the skills](#pick-the-job) · [External collection](EXTERNAL-SKILLS.md) · [Codex catalogue](CATALOG.md) · [Audit](AUDIT.md)
+[Install](#get-started) · [Find a workflow](#swayleo-workflows) · [External skills](EXTERNAL-SKILLS.md) · [Plugin catalogue](CATALOG.md)
 
 ---
 </div>
 
-## Built for the work between the brief and the result
+Swayleo Agentic Skills is the team's shared library of instructions, workflows and resources for working with AI agents. Use it to plan campaigns, write and review copy, design emails, manage projects, build automations and document how we work.
 
-From a call transcript to a task. From an intake to a campaign calendar. From a flow strategy to copy, design, QA and a clean handoff.
+Whether you're joining Swayleo or taking on a new responsibility, start with the skills that fit your role. Bring the current brand brief, approved sources and relevant account access to each task.
 
-This library brings together detailed Swayleo workflows, shareable skill sources already present in our Codex workspace, and a catalogue of the other relevant plugins the team can install.
+## Get started
 
-The original nine short starters have been replaced. Each Swayleo skill now has **inputs, a working process, an output format, an example, verification checks and a worksheet**. The proper skill folders and their resources are in the ZIP; the linked Markdown below lets you read them on GitHub.
+### Ask your agent to help you install
 
-## Pick the job
+Copy this into your agent:
+
+```text
+Review https://github.com/Logarn/swayleo-agentic-skills.
+Download and inspect swayleo-skill-library.zip, then read its README.md.
+Help me choose skills for my role and install them in the supported skill
+directory, preserving their references, resources and licence notices.
+Preview changes before copying files and do not overwrite existing skills.
+Use EXTERNAL-SKILLS.md for external skill choices and prerequisites.
+Tell me which plugins or account connections my chosen workflows need.
+```
+
+### Install with Python
+
+1. [Download the library](https://github.com/Logarn/swayleo-agentic-skills/raw/refs/heads/main/swayleo-skill-library.zip) and extract it.
+2. Open a terminal in the extracted folder.
+3. Preview the installation, then apply it:
+
+```bash
+python install.py
+python install.py --apply
+```
+
+By default, this installs the Swayleo workflow folders, including their worksheets, into `~/.codex/skills/`. Existing skills are skipped. Python is required; the installer has no additional package dependencies.
+
+To choose one workflow:
+
+```bash
+python install.py --skill swayleo-flow-strategy --apply
+```
+
+To choose an external skill:
+
+```bash
+python install.py --external rob-palmer/direct-response-copy
+python install.py --external rebecca/klaviyo-analyst --apply
+```
+
+Use `--external all` to preview the full external collection. Add `--destination /your/skills/path` to use another supported skill directory. The [external guide](EXTERNAL-SKILLS.md) lists the available source/skill IDs.
+
+The installer copies instructions and resources. Connect services such as Klaviyo, Figma, Google Drive, Monday.com and Slack separately, using the access your role requires. Other agents may use a different skill location or installation method.
+
+## Choose a starting point
+
+| Your work | Start with |
+| :-- | :-- |
+| Account management & client onboarding | Brand Context, Client Onboarding, Client Folder, Approval Handoffs |
+| Retention & lifecycle strategy | Segmentation Strategy, Flow Strategy, Campaign Calendar, Retention Reporting |
+| Copywriting | Lifecycle Copy, Copy Document Structure, Copy Claims QA; external direct-response and copy-review skills |
+| Email design | Email Design QA, Campaign Design QA; external Figma design and Email Love workflows |
+| Building & implementation | Campaign Build QA, Flow Build QA; external Klaviyo development and personalization skills |
+| Operations & project management | Call to Tasks, Operations Call, Task Batch Consolidation, Monday Board Automation |
+| Marketing & sales | External customer research, offers, marketing planning, RevOps and sales enablement |
+
+## How to use a skill
+
+Tell your agent which skill to use, what you're trying to produce and which sources it should follow. Include the brand, scope, relevant links or files, and any deadline or approval requirements.
+
+For example:
+
+> Use Campaign Calendar to plan next month's emails from this intake. Give each campaign a clear audience, objective and angle. Flag anything that needs confirmation.
+
+> Use Lifecycle Copy to draft this welcome email. Follow the brand voice, approved offer and product evidence in the brief.
+
+> Use Call to Tasks on this transcript and my notes. Check existing tasks first and flag missing owners or unclear deadlines.
+
+Start with the workflow that fits the job. Add specialist skills when needed, and review the result against the current brand sources before handing it over.
+
+## What's in the library
+
+| Collection | What it contains | Where to look |
+| :-- | :-- | :-- |
+| Swayleo workflows | Agency processes for strategy, production, QA, operations and team knowledge | Workflow links below; `skills/` in the download |
+| External skills | Specialist copywriting, marketing, lifecycle, Klaviyo, Figma and project-management guidance | [External guide](EXTERNAL-SKILLS.md); `external/` in the download |
+| Vendor source packages | Document, spreadsheet, presentation, PDF, Drive and development resources | `vendor/` in the download |
+| Plugin catalogue | Additional capabilities and their installation requirements | [Catalogue](CATALOG.md) |
+
+Each Swayleo workflow includes inputs, steps, an output format, an example, verification checks and a worksheet. Files linked on GitHub are reading previews; the download preserves the full skill-folder structure and supporting resources.
+
+Vendor packages may depend on official plugins and runtimes. Use their supported installation route to enable tools. Source files alone do not provide a working service connection.
+
+## Swayleo workflows
+
 
 
 ### Retention & lifecycle
@@ -33,7 +113,7 @@ The original nine short starters have been replaced. Each Swayleo skill now has 
 | [Segmentation Strategy](swayleo-segmentation-strategy.md) | Audit existing audiences and define a measurable lifecycle segmentation plan. |
 | [Flow Strategy](swayleo-flow-strategy.md) | Build flow maps and email strategy using the established Swayleo review structure. |
 | [Lifecycle Copy](swayleo-lifecycle-copy.md) | Write and revise email/SMS copy from brand evidence and an approved strategy. |
-| [Flow Build Qa](swayleo-flow-build-qa.md) | Verify lifecycle flow settings and content against a strategy before activation. |
+| [Flow Build QA](swayleo-flow-build-qa.md) | Verify lifecycle flow settings and content against a strategy before activation. |
 | [Retention Reporting](swayleo-retention-reporting.md) | Produce a sourced lifecycle performance readout with clear metric definitions. |
 
 ### Campaign production
@@ -42,10 +122,10 @@ The original nine short starters have been replaced. Each Swayleo skill now has 
 | :-- | :-- |
 | [Campaign Calendar](swayleo-campaign-calendar.md) | Create campaign calendars with sourced offers, defined audiences and matching briefs. |
 | [Copy Document Structure](swayleo-copy-document-structure.md) | Prepare native copy-document sections and preserve approved writing-table formats. |
-| [Copy Claims Qa](swayleo-copy-claims-qa.md) | Review lifecycle copy for product accuracy, offer mechanics, claims and policy limits. |
-| [Email Design Qa](swayleo-email-design-qa.md) | Prepare design direction and review rendered lifecycle emails against approved copy. |
-| [Campaign Design Qa](swayleo-campaign-design-qa.md) | Run complete campaign design QA and draft comments tied to exact frames. |
-| [Campaign Build Qa](swayleo-campaign-build-qa.md) | Verify a built campaign against its approved copy, design, audience and send plan. |
+| [Copy Claims QA](swayleo-copy-claims-qa.md) | Review lifecycle copy for product accuracy, offer mechanics, claims and policy limits. |
+| [Email Design QA](swayleo-email-design-qa.md) | Prepare design direction and review rendered lifecycle emails against approved copy. |
+| [Campaign Design QA](swayleo-campaign-design-qa.md) | Run complete campaign design QA and draft comments tied to exact frames. |
+| [Campaign Build QA](swayleo-campaign-build-qa.md) | Verify a built campaign against its approved copy, design, audience and send plan. |
 
 ### Operations & automation
 
@@ -53,7 +133,7 @@ The original nine short starters have been replaced. Each Swayleo skill now has 
 | :-- | :-- |
 | [Client Onboarding](swayleo-client-onboarding.md) | Turn a new client brief into a verified operations and lifecycle readiness plan. |
 | [Client Folder](swayleo-client-folder.md) | Set up or audit the core client document set without carrying old-brand residue. |
-| [Call To Tasks](swayleo-call-to-tasks.md) | Convert call transcripts and after-call notes into sourced, deduplicated tasks. |
+| [Call to Tasks](swayleo-call-to-tasks.md) | Convert call transcripts and after-call notes into sourced, deduplicated tasks. |
 | [Operations Call](swayleo-operations-call.md) | Build a concise recurring operations agenda with urgent leadership decisions first. |
 | [Approval Handoffs](swayleo-approval-handoffs.md) | Keep strategy, copy, design and build handoffs aligned with actual approvals. |
 | [Monday Slack Sync](swayleo-monday-slack-sync.md) | Specify a reliable Monday.com and Slack tracker synchronization with clear ownership. |
@@ -68,109 +148,35 @@ The original nine short starters have been replaced. Each Swayleo skill now has 
 | [Qa Comments](swayleo-qa-comments.md) | Write, revise and verify short actionable QA comments without duplicating threads. |
 | [Academy Resource](swayleo-academy-resource.md) | Curate external learning and turn verified internal workflows into reusable training. |
 
-## 48 external skills, sourced and credited
 
-We also searched skill directories and the authors' original repositories. The library now includes full source folders from seven external projects, pinned to specific commits with supporting resources and licence notices.
+## Specialist skills
 
-| Start here | What is included |
-| :-- | :-- |
-| [Direct-response copy](external-rob-palmer-direct-response-copy.md) | Rob Palmer's copywriting, ad copy, landing pages, copy review and compliance-review aid |
-| [Lifecycle email strategy](external-corey-emails.md) | Corey Haines's email, SMS, research, offers, testing, marketing and sales workflows |
-| [Klaviyo analyst](external-rebecca-klaviyo-analyst.md) | Rebecca Rae Barton's Klaviyo audit/development, journeys, retention, brand and Shopify workflows |
-| [Figma email builder](external-email-love-email-love-figma-builder.md) | Email Love's Codex builder, repair, migration and quality gates |
-| [Klaviyo personalization](external-email-love-esp-klaviyo-django.md) | Klaviyo Django tags, fallbacks, troubleshooting and Figma export placement |
-| [Brand-component email design](external-kinga-dow-email-design.md) | Kinga Dow's design, review, remix and readiness workflows with EMAIL.md |
-| [Project management](external-magnus-technical-project-management.md) | Project/program delivery, Kanban and meetings |
+The [external collection](EXTERNAL-SKILLS.md) includes:
 
-Read the [complete external guide](EXTERNAL-SKILLS.md) for all 48 skills, sources and dependencies. Use one suitable workflow per job rather than loading competing copy/design systems together. Sample performance numbers, legal guidance and benchmarks need current brand-specific verification.
+- **Copywriting:** direct-response copy, ads, landing pages, editing and copy review.
+- **Lifecycle & marketing:** email sequences, SMS, customer research, offers, retention and experimentation.
+- **Klaviyo:** account auditing, segmentation, development and Django personalization.
+- **Email design:** brand-component workflows, Figma building, template repair, migration and design QA.
+- **Marketing & sales:** positioning, marketing plans, prospecting, RevOps and sales enablement.
+- **Project management:** delivery planning, program coordination, Kanban and meetings.
 
-External skills are **opt-in**. Preview an installation from the extracted library:
+Each entry identifies its author, source, licence and prerequisites. Some workflows are designed around a particular platform or design system; choose the one that matches the team's setup.
 
-```bash
-python install.py --external rob-palmer/direct-response-copy
-python install.py --external rebecca/klaviyo-analyst --apply
-python install.py --external all                 # preview all 48
-```
+## Working across brands
 
-They do not connect accounts, activate campaigns or install service tooling. External executable helpers are included as source and were not run for this collection.
+Reuse the process while checking the facts for each brand. Products, claims, offers, audiences, event fields, voice and approval requirements must come from that brand's current sources.
 
-## Give your agent the library
+Follow current Swayleo SOPs and the task's agreed scope. If a skill contains an outdated assumption or conflicts with the brief, flag it before proceeding. Suggested benchmarks, cadences and examples are starting points to evaluate.
 
-Copy this:
+Review and approval remain part of the workflow. A completed draft or passing QA check does not authorize a send, activation, publication or change to a live account. Keep client data and credentials out of this public repository.
 
-```text
-Review https://github.com/Logarn/swayleo-agentic-skills.
-Download and inspect swayleo-skill-library.zip. Read README.md and AUDIT.md.
-Install all 23 Swayleo workflow folders with their references into your
-supported skill directory. Preview first; do not overwrite existing skills.
-Review EXTERNAL-SKILLS.md and install the external skills relevant to my job
-after checking their prerequisites. Review CATALOG.md and tell me
-which official plugins and account connections are needed for my work.
-Use the vendor source snapshots as reference; do not claim that copying
-instruction files installs connectors or enables service access.
-```
+## Keep the library useful
 
-### Codex quick start
+When a repeated task becomes easier or more reliable, capture the improvement in the relevant skill. Include when it applies, the inputs it needs, the decisions that matter, the expected output and how to check it.
 
-Download and extract [the complete library](swayleo-skill-library.zip), then run from its extracted folder:
+Preserve supporting files and source credits when updating external material. Keep Swayleo procedures separate from vendor instructions, and review platform-specific guidance when tools change.
 
-```bash
-python install.py                 # preview the 23 workflow installations
-python install.py --apply         # install without overwriting existing skills
-```
-
-Select a workflow or choose another skill directory:
-
-```bash
-python install.py --skill swayleo-flow-strategy --destination /your/skills/path
-```
-
-The installer is plain Python with no external dependencies. It defaults to the 23 Swayleo workflows and keeps their worksheets; external skills need --external. Other agents can use the same Markdown instructions with their own supported skill layout.
-
-## Existing skills, kept complete
-
-The source bundle includes **43 existing skills** from these locally installed packages:
-
-| Package | Included capability | Snapshot |
-| :-- | :-- | :-- |
-| Google Drive | Drive, Docs, Sheets, Slides and comments | 0.1.22 |
-| Documents | Word authoring, editing, redlining and rendering | 26.1017.22136 |
-| PDF | Extraction, generation and visual verification | 26.1017.22136 |
-| Presentations | Deck authoring and verification | 26.1017.22136 |
-| Spreadsheets | Spreadsheet authoring, analysis and live Excel guidance | 26.1017.22136 |
-| Vercel | Agents, AI SDK, workflows, backends, deployment and platform tooling | 0.54.1 |
-
-Their source folders, supporting resources and licence notices are retained under `vendor/` inside the ZIP. These are source snapshots; **use official plugins to get the required tools and runtime**. The archive does not include account connections.
-
-## The rest of our Codex capability
-
-The [full catalogue](CATALOG.md) lists **all 166 discovered skill entrypoints**, with versions, relevance and distribution status. **117 are relevant** to agency work; specialist and out-of-core entries are still listed so the audit is inspectable.
-
-That includes Data Analytics, Figma, Customer.io, Sites, Pages, image generation, reusable templates and other capabilities. Where a package is proprietary or has no declared redistribution licence, its skill files are not copied into this public repo. Install the official plugin instead. See [licence notes](LICENSE-NOTES.md).
-
-Cache presence does not prove a plugin is active in every chat. A skill file does not grant service access. No dedicated Klaviyo skill file was found in the scanned directories.
-
-## Put it to work
-
-> **After a call:** “Use Call To Tasks on this transcript and my notes. Check existing tasks and flag missing owners.”
-
-> **Before the month starts:** “Read the brand context, audit the audiences and build a calendar with a clear job for every campaign.”
-
-> **Before copy starts:** “Use Flow Strategy and the six-column review map. Keep the detailed briefs above the writing sections.”
-
-> **Before design release:** “Reconcile the current review copy, check claims and offer terms, and show which approvals are still missing.”
-
-## Reuse the method. Recheck the brand.
-
-Past workflows informed the strategy format, copy-table preservation, claims and destination checks, comment handling, tracker consolidation and approval handoffs. Each skill identifies whether it is recovered, expanded or newly written.
-
-Do not transfer one brand's products, claims, offers, audiences, event fields or approval rules to another. Naming conventions, +2 calendar versus working days, sync ownership and the optional flow map remain team decisions where not already agreed.
-
-These are working instructions, not a claim that every workflow has passed live-account testing. [AUDIT.md](AUDIT.md) explains coverage and remaining limits. Client documents, private links, credentials and transcripts are excluded.
-
-## Keep making it useful
-
-Add a skill when it captures a real repeated job. Include the input, the decisions that matter, the output and how to verify it. Keep source snapshots separate from our own procedures. When Codex plugins change, compare the [inventory](inventory.json) and update the catalogue.
+For source versions, coverage and validation limits, see [the audit notes](AUDIT.md), [external sources](external-manifest.json) and [licence notes](LICENSE-NOTES.md).
 
 ---
 
@@ -178,6 +184,6 @@ Add a skill when it captures a real repeated job. Include the input, the decisio
 
 **Better work, with less repeated work.**
 
-Swayleo · A growing agency playbook
+Swayleo · A shared agency playbook
 
 </div>
